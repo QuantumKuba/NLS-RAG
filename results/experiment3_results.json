@@ -1,0 +1,86 @@
+{
+  "experiment": "Experiment 3: Document Length Challenge",
+  "corpus_size": 281,
+  "distribution": {
+    "stats": {
+      "n_documents": 281,
+      "mean": 38049.69039145907,
+      "median": 24020,
+      "std": 45519.81213439076,
+      "min": 22,
+      "max": 311350
+    },
+    "percentiles": {
+      "P10": {
+        "word_count": 442,
+        "percentile": 10
+      },
+      "P25": {
+        "word_count": 4523,
+        "percentile": 25
+      },
+      "P50": {
+        "word_count": 24020,
+        "percentile": 50
+      },
+      "P75": {
+        "word_count": 56260,
+        "percentile": 75
+      },
+      "P90": {
+        "word_count": 80360,
+        "percentile": 90
+      },
+      "P95": {
+        "word_count": 112983,
+        "percentile": 95
+      },
+      "P99": {
+        "word_count": 301239,
+        "percentile": 99
+      }
+    }
+  },
+  "strategy_comparison": {
+    "P25": {
+      "n_documents": 5,
+      "mean_word_count": 4589.0,
+      "full_doc_mean_coverage": 1.0,
+      "pct_truncated": 0.0,
+      "mean_n_chunks": 10.4,
+      "mean_coverage_at_5": 0.5626438051424054,
+      "mean_inter_chunk_sim": 0.7764582395553589,
+      "mean_chunk_doc_sim": 0.7817724823951722
+    },
+    "P50": {
+      "n_documents": 5,
+      "mean_word_count": 24607.2,
+      "full_doc_mean_coverage": 0.33339117346013847,
+      "pct_truncated": 1.0,
+      "mean_n_chunks": 53.6,
+      "mean_coverage_at_5": 0.10418474170629329,
+      "mean_inter_chunk_sim": 0.7493735909461975,
+      "mean_chunk_doc_sim": 0.7441540479660034
+    },
+    "P90": {
+      "n_documents": 5,
+      "mean_word_count": 79974.6,
+      "full_doc_mean_coverage": 0.10254043009826415,
+      "pct_truncated": 1.0,
+      "mean_n_chunks": 173.6,
+      "mean_coverage_at_5": 0.032043884405707546,
+      "mean_inter_chunk_sim": 0.7549271702766418,
+      "mean_chunk_doc_sim": 0.7502825260162354
+    },
+    "P99": {
+      "n_documents": 5,
+      "mean_word_count": 257390.2,
+      "full_doc_mean_coverage": 0.03401942577577777,
+      "pct_truncated": 1.0,
+      "mean_n_chunks": 557.6,
+      "mean_coverage_at_5": 0.010631070554930552,
+      "mean_inter_chunk_sim": 0.7493582844734192,
+      "mean_chunk_doc_sim": 0.7312817335128784
+    }
+  }
+}

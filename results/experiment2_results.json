@@ -1,0 +1,122 @@
+{
+  "fixed_llama-3.1-8b-instruct": {
+    "model": "meta-llama/llama-3.1-8b-instruct",
+    "chunking_strategy": "fixed",
+    "overall": {
+      "n_questions": 29,
+      "exact_match_rate": 0.06896551724137931,
+      "contains_match_rate": 0.10344827586206896,
+      "mean_token_f1": 0.13908045977011493,
+      "hallucination_rate": 0.4827586206896552,
+      "abstention_rate": 0.3103448275862069,
+      "mean_confidence": 67.75862068965517,
+      "hallucinated_mean_confidence": 85.0,
+      "correct_mean_confidence": 98.33333333333333,
+      "confidence_hallucination_gap": 13.333333333333329
+    },
+    "by_ocr_tier": {
+      "high": {
+        "n_questions": 29,
+        "exact_match_rate": 0.06896551724137931,
+        "contains_match_rate": 0.10344827586206896,
+        "mean_token_f1": 0.13908045977011493,
+        "hallucination_rate": 0.4827586206896552,
+        "abstention_rate": 0.3103448275862069,
+        "mean_confidence": 67.75862068965517,
+        "hallucinated_mean_confidence": 85.0,
+        "correct_mean_confidence": 98.33333333333333,
+        "confidence_hallucination_gap": 13.333333333333329
+      }
+    }
+  },
+  "fixed_mistral-7b-instruct": {
+    "model": "mistralai/mistral-7b-instruct",
+    "chunking_strategy": "fixed",
+    "overall": {
+      "n_questions": 29,
+      "exact_match_rate": 0.06896551724137931,
+      "contains_match_rate": 0.10344827586206896,
+      "mean_token_f1": 0.12449160035366932,
+      "hallucination_rate": 0.6206896551724138,
+      "abstention_rate": 0.20689655172413793,
+      "mean_confidence": 73.62068965517241,
+      "hallucinated_mean_confidence": 92.22222222222223,
+      "correct_mean_confidence": 95.0,
+      "confidence_hallucination_gap": 2.7777777777777715
+    },
+    "by_ocr_tier": {
+      "high": {
+        "n_questions": 29,
+        "exact_match_rate": 0.06896551724137931,
+        "contains_match_rate": 0.10344827586206896,
+        "mean_token_f1": 0.12449160035366932,
+        "hallucination_rate": 0.6206896551724138,
+        "abstention_rate": 0.20689655172413793,
+        "mean_confidence": 73.62068965517241,
+        "hallucinated_mean_confidence": 92.22222222222223,
+        "correct_mean_confidence": 95.0,
+        "confidence_hallucination_gap": 2.7777777777777715
+      }
+    }
+  },
+  "semantic_llama-3.1-8b-instruct": {
+    "model": "meta-llama/llama-3.1-8b-instruct",
+    "chunking_strategy": "semantic",
+    "overall": {
+      "n_questions": 29,
+      "exact_match_rate": 0.06896551724137931,
+      "contains_match_rate": 0.10344827586206896,
+      "mean_token_f1": 0.16514053897421038,
+      "hallucination_rate": 0.4482758620689655,
+      "abstention_rate": 0.3448275862068966,
+      "mean_confidence": 59.310344827586206,
+      "hallucinated_mean_confidence": 81.53846153846153,
+      "correct_mean_confidence": 96.66666666666667,
+      "confidence_hallucination_gap": 15.128205128205138
+    },
+    "by_ocr_tier": {
+      "high": {
+        "n_questions": 29,
+        "exact_match_rate": 0.06896551724137931,
+        "contains_match_rate": 0.10344827586206896,
+        "mean_token_f1": 0.16514053897421038,
+        "hallucination_rate": 0.4482758620689655,
+        "abstention_rate": 0.3448275862068966,
+        "mean_confidence": 59.310344827586206,
+        "hallucinated_mean_confidence": 81.53846153846153,
+        "correct_mean_confidence": 96.66666666666667,
+        "confidence_hallucination_gap": 15.128205128205138
+      }
+    }
+  },
+  "semantic_mistral-7b-instruct": {
+    "model": "mistralai/mistral-7b-instruct",
+    "chunking_strategy": "semantic",
+    "overall": {
+      "n_questions": 29,
+      "exact_match_rate": 0.034482758620689655,
+      "contains_match_rate": 0.034482758620689655,
+      "mean_token_f1": 0.0955665024630542,
+      "hallucination_rate": 0.5172413793103449,
+      "abstention_rate": 0.3448275862068966,
+      "mean_confidence": 58.793103448275865,
+      "hallucinated_mean_confidence": 88.33333333333333,
+      "correct_mean_confidence": 95.0,
+      "confidence_hallucination_gap": 6.666666666666671
+    },
+    "by_ocr_tier": {
+      "high": {
+        "n_questions": 29,
+        "exact_match_rate": 0.034482758620689655,
+        "contains_match_rate": 0.034482758620689655,
+        "mean_token_f1": 0.0955665024630542,
+        "hallucination_rate": 0.5172413793103449,
+        "abstention_rate": 0.3448275862068966,
+        "mean_confidence": 58.793103448275865,
+        "hallucinated_mean_confidence": 88.33333333333333,
+        "correct_mean_confidence": 95.0,
+        "confidence_hallucination_gap": 6.666666666666671
+      }
+    }
+  }
+}

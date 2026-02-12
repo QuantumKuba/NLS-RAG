@@ -1,0 +1,510 @@
+{
+  "P25": {
+    "n_documents": 5,
+    "mean_word_count": 4589.0,
+    "full_doc_mean_coverage": 1.0,
+    "pct_truncated": 0.0,
+    "mean_n_chunks": 10.4,
+    "mean_coverage_at_5": 0.5626438051424054,
+    "mean_inter_chunk_sim": 0.7764582395553589,
+    "mean_chunk_doc_sim": 0.7817724823951722,
+    "detailed": [
+      {
+        "doc_id": "20656641",
+        "word_count": 4052,
+        "page_count": 305,
+        "ocr_quality": 0.9902547657705952,
+        "full_doc": {
+          "coverage": 1.0,
+          "truncated": false,
+          "words_lost": 0
+        },
+        "passage_chunking": {
+          "n_chunks": 9,
+          "coverage_at_k": {
+            "1": 0.1263573543928924,
+            "3": 0.3790720631786772,
+            "5": 0.631786771964462,
+            "10": 1.0
+          },
+          "mean_inter_chunk_similarity": 0.8182804584503174,
+          "mean_chunk_to_doc_similarity": 0.7983694076538086,
+          "max_chunk_to_doc_similarity": 1.0
+        }
+      },
+      {
+        "doc_id": "20656702",
+        "word_count": 4263,
+        "page_count": 607,
+        "ocr_quality": 0.9901180796800957,
+        "full_doc": {
+          "coverage": 1.0,
+          "truncated": false,
+          "words_lost": 0
+        },
+        "passage_chunking": {
+          "n_chunks": 10,
+          "coverage_at_k": {
+            "1": 0.1201032136992728,
+            "3": 0.36030964109781843,
+            "5": 0.6005160684963641,
+            "10": 1.0
+          },
+          "mean_inter_chunk_similarity": 0.7953028082847595,
+          "mean_chunk_to_doc_similarity": 0.7993407249450684,
+          "max_chunk_to_doc_similarity": 1.0
+        }
+      },
+      {
+        "doc_id": "19531167",
+        "word_count": 4523,
+        "page_count": 2169,
+        "ocr_quality": 0.9709315482546894,
+        "full_doc": {
+          "coverage": 1.0,
+          "truncated": false,
+          "words_lost": 0
+        },
+        "passage_chunking": {
+          "n_chunks": 10,
+          "coverage_at_k": {
+            "1": 0.1131992040680964,
+            "3": 0.3395976122042892,
+            "5": 0.565996020340482,
+            "10": 1.0
+          },
+          "mean_inter_chunk_similarity": 0.76267409324646,
+          "mean_chunk_to_doc_similarity": 0.7874007225036621,
+          "max_chunk_to_doc_similarity": 1.0
+        }
+      },
+      {
+        "doc_id": "19543324",
+        "word_count": 4843,
+        "page_count": 2162,
+        "ocr_quality": 0.9822451137658307,
+        "full_doc": {
+          "coverage": 1.0,
+          "truncated": false,
+          "words_lost": 0
+        },
+        "passage_chunking": {
+          "n_chunks": 11,
+          "coverage_at_k": {
+            "1": 0.10571959529217427,
+            "3": 0.3171587858765228,
+            "5": 0.5285979764608714,
+            "10": 1.0
+          },
+          "mean_inter_chunk_similarity": 0.7424227595329285,
+          "mean_chunk_to_doc_similarity": 0.7616894245147705,
+          "max_chunk_to_doc_similarity": 1.000000238418579
+        }
+      },
+      {
+        "doc_id": "22319099",
+        "word_count": 5264,
+        "page_count": 956,
+        "ocr_quality": 0.9808494398351532,
+        "full_doc": {
+          "coverage": 1.0,
+          "truncated": false,
+          "words_lost": 0
+        },
+        "passage_chunking": {
+          "n_chunks": 12,
+          "coverage_at_k": {
+            "1": 0.0972644376899696,
+            "3": 0.2917933130699088,
+            "5": 0.48632218844984804,
+            "10": 0.9726443768996961
+          },
+          "mean_inter_chunk_similarity": 0.7636110782623291,
+          "mean_chunk_to_doc_similarity": 0.762062132358551,
+          "max_chunk_to_doc_similarity": 1.0
+        }
+      }
+    ]
+  },
+  "P50": {
+    "n_documents": 5,
+    "mean_word_count": 24607.2,
+    "full_doc_mean_coverage": 0.33339117346013847,
+    "pct_truncated": 1.0,
+    "mean_n_chunks": 53.6,
+    "mean_coverage_at_5": 0.10418474170629329,
+    "mean_inter_chunk_sim": 0.7493735909461975,
+    "mean_chunk_doc_sim": 0.7441540479660034,
+    "detailed": [
+      {
+        "doc_id": "22354695",
+        "word_count": 23565,
+        "page_count": 2604,
+        "ocr_quality": 0.9892537082844782,
+        "full_doc": {
+          "coverage": 0.34763420326755784,
+          "truncated": true,
+          "words_lost": 15373
+        },
+        "passage_chunking": {
+          "n_chunks": 52,
+          "coverage_at_k": {
+            "1": 0.021727137704222365,
+            "3": 0.06518141311266709,
+            "5": 0.10863568852111181,
+            "10": 0.21727137704222363
+          },
+          "mean_inter_chunk_similarity": 0.7636075615882874,
+          "mean_chunk_to_doc_similarity": 0.7846482992172241,
+          "max_chunk_to_doc_similarity": 1.0
+        }
+      },
+      {
+        "doc_id": "22338890",
+        "word_count": 23970,
+        "page_count": 2418,
+        "ocr_quality": 0.9830724709149017,
+        "full_doc": {
+          "coverage": 0.3417605340008344,
+          "truncated": true,
+          "words_lost": 15778
+        },
+        "passage_chunking": {
+          "n_chunks": 52,
+          "coverage_at_k": {
+            "1": 0.02136003337505215,
+            "3": 0.06408010012515644,
+            "5": 0.10680016687526074,
+            "10": 0.21360033375052148
+          },
+          "mean_inter_chunk_similarity": 0.715255618095398,
+          "mean_chunk_to_doc_similarity": 0.7174145579338074,
+          "max_chunk_to_doc_similarity": 0.9999999403953552
+        }
+      },
+      {
+        "doc_id": "21955936",
+        "word_count": 24020,
+        "page_count": null,
+        "ocr_quality": 0.9956544139063765,
+        "full_doc": {
+          "coverage": 0.34104912572855955,
+          "truncated": true,
+          "words_lost": 15828
+        },
+        "passage_chunking": {
+          "n_chunks": 52,
+          "coverage_at_k": {
+            "1": 0.021315570358034972,
+            "3": 0.0639467110741049,
+            "5": 0.10657785179017486,
+            "10": 0.21315570358034971
+          },
+          "mean_inter_chunk_similarity": 0.7530394792556763,
+          "mean_chunk_to_doc_similarity": 0.7306093573570251,
+          "max_chunk_to_doc_similarity": 1.0
+        }
+      },
+      {
+        "doc_id": "22322958",
+        "word_count": 25666,
+        "page_count": 2879,
+        "ocr_quality": 0.9581322200952186,
+        "full_doc": {
+          "coverage": 0.3191771214836749,
+          "truncated": true,
+          "words_lost": 17474
+        },
+        "passage_chunking": {
+          "n_chunks": 56,
+          "coverage_at_k": {
+            "1": 0.01994857009272968,
+            "3": 0.059845710278189045,
+            "5": 0.0997428504636484,
+            "10": 0.1994857009272968
+          },
+          "mean_inter_chunk_similarity": 0.7577604651451111,
+          "mean_chunk_to_doc_similarity": 0.725019097328186,
+          "max_chunk_to_doc_similarity": 1.0000001192092896
+        }
+      },
+      {
+        "doc_id": "22340968",
+        "word_count": 25815,
+        "page_count": 2386,
+        "ocr_quality": 0.9747275079874244,
+        "full_doc": {
+          "coverage": 0.31733488282006583,
+          "truncated": true,
+          "words_lost": 17623
+        },
+        "passage_chunking": {
+          "n_chunks": 56,
+          "coverage_at_k": {
+            "1": 0.019833430176254115,
+            "3": 0.05950029052876235,
+            "5": 0.09916715088127058,
+            "10": 0.19833430176254116
+          },
+          "mean_inter_chunk_similarity": 0.7572048306465149,
+          "mean_chunk_to_doc_similarity": 0.7630789279937744,
+          "max_chunk_to_doc_similarity": 1.0
+        }
+      }
+    ]
+  },
+  "P90": {
+    "n_documents": 5,
+    "mean_word_count": 79974.6,
+    "full_doc_mean_coverage": 0.10254043009826415,
+    "pct_truncated": 1.0,
+    "mean_n_chunks": 173.6,
+    "mean_coverage_at_5": 0.032043884405707546,
+    "mean_inter_chunk_sim": 0.7549271702766418,
+    "mean_chunk_doc_sim": 0.7502825260162354,
+    "detailed": [
+      {
+        "doc_id": "22321737",
+        "word_count": 75881,
+        "page_count": 10991,
+        "ocr_quality": 0.9837804868573534,
+        "full_doc": {
+          "coverage": 0.1079585139890091,
+          "truncated": true,
+          "words_lost": 67689
+        },
+        "passage_chunking": {
+          "n_chunks": 165,
+          "coverage_at_k": {
+            "1": 0.006747407124313069,
+            "3": 0.02024222137293921,
+            "5": 0.033737035621565346,
+            "10": 0.06747407124313069
+          },
+          "mean_inter_chunk_similarity": 0.75593101978302,
+          "mean_chunk_to_doc_similarity": 0.7693402171134949,
+          "max_chunk_to_doc_similarity": 1.0
+        }
+      },
+      {
+        "doc_id": "22336518",
+        "word_count": 78422,
+        "page_count": 7409,
+        "ocr_quality": 0.9874157710058824,
+        "full_doc": {
+          "coverage": 0.10446048302772182,
+          "truncated": true,
+          "words_lost": 70230
+        },
+        "passage_chunking": {
+          "n_chunks": 170,
+          "coverage_at_k": {
+            "1": 0.006528780189232614,
+            "3": 0.01958634056769784,
+            "5": 0.03264390094616307,
+            "10": 0.06528780189232614
+          },
+          "mean_inter_chunk_similarity": 0.7270218729972839,
+          "mean_chunk_to_doc_similarity": 0.7413345575332642,
+          "max_chunk_to_doc_similarity": 1.0000001192092896
+        }
+      },
+      {
+        "doc_id": "22336088",
+        "word_count": 80360,
+        "page_count": 10737,
+        "ocr_quality": 0.9905221393531275,
+        "full_doc": {
+          "coverage": 0.10194126431060228,
+          "truncated": true,
+          "words_lost": 72168
+        },
+        "passage_chunking": {
+          "n_chunks": 174,
+          "coverage_at_k": {
+            "1": 0.006371329019412643,
+            "3": 0.01911398705823793,
+            "5": 0.031856645097063215,
+            "10": 0.06371329019412643
+          },
+          "mean_inter_chunk_similarity": 0.7791464924812317,
+          "mean_chunk_to_doc_similarity": 0.7218954563140869,
+          "max_chunk_to_doc_similarity": 1.0
+        }
+      },
+      {
+        "doc_id": "22360965",
+        "word_count": 82490,
+        "page_count": 8114,
+        "ocr_quality": 0.9845526319134775,
+        "full_doc": {
+          "coverage": 0.09930900715238211,
+          "truncated": true,
+          "words_lost": 74298
+        },
+        "passage_chunking": {
+          "n_chunks": 179,
+          "coverage_at_k": {
+            "1": 0.006206812947023882,
+            "3": 0.018620438841071646,
+            "5": 0.03103406473511941,
+            "10": 0.06206812947023882
+          },
+          "mean_inter_chunk_similarity": 0.7585081458091736,
+          "mean_chunk_to_doc_similarity": 0.7557381987571716,
+          "max_chunk_to_doc_similarity": 1.0000001192092896
+        }
+      },
+      {
+        "doc_id": "22327595",
+        "word_count": 82720,
+        "page_count": 15472,
+        "ocr_quality": 0.9870385530119793,
+        "full_doc": {
+          "coverage": 0.09903288201160541,
+          "truncated": true,
+          "words_lost": 74528
+        },
+        "passage_chunking": {
+          "n_chunks": 180,
+          "coverage_at_k": {
+            "1": 0.006189555125725338,
+            "3": 0.018568665377176014,
+            "5": 0.030947775628626693,
+            "10": 0.061895551257253385
+          },
+          "mean_inter_chunk_similarity": 0.7540283203125,
+          "mean_chunk_to_doc_similarity": 0.7631042003631592,
+          "max_chunk_to_doc_similarity": 1.0000001192092896
+        }
+      }
+    ]
+  },
+  "P99": {
+    "n_documents": 5,
+    "mean_word_count": 257390.2,
+    "full_doc_mean_coverage": 0.03401942577577777,
+    "pct_truncated": 1.0,
+    "mean_n_chunks": 557.6,
+    "mean_coverage_at_5": 0.010631070554930552,
+    "mean_inter_chunk_sim": 0.7493582844734192,
+    "mean_chunk_doc_sim": 0.7312817335128784,
+    "detailed": [
+      {
+        "doc_id": "22356135",
+        "word_count": 179274,
+        "page_count": 15586,
+        "ocr_quality": 0.9765923693942219,
+        "full_doc": {
+          "coverage": 0.04569541595546482,
+          "truncated": true,
+          "words_lost": 171082
+        },
+        "passage_chunking": {
+          "n_chunks": 389,
+          "coverage_at_k": {
+            "1": 0.0028559634972165513,
+            "3": 0.008567890491649653,
+            "5": 0.014279817486082756,
+            "10": 0.02855963497216551
+          },
+          "mean_inter_chunk_similarity": 0.7588862180709839,
+          "mean_chunk_to_doc_similarity": 0.6751319169998169,
+          "max_chunk_to_doc_similarity": 1.000000238418579
+        }
+      },
+      {
+        "doc_id": "19542100",
+        "word_count": 183740,
+        "page_count": 36572,
+        "ocr_quality": 0.9851387309284438,
+        "full_doc": {
+          "coverage": 0.04458473930554044,
+          "truncated": true,
+          "words_lost": 175548
+        },
+        "passage_chunking": {
+          "n_chunks": 398,
+          "coverage_at_k": {
+            "1": 0.0027865462065962774,
+            "3": 0.008359638619788832,
+            "5": 0.013932731032981387,
+            "10": 0.027865462065962774
+          },
+          "mean_inter_chunk_similarity": 0.7501989006996155,
+          "mean_chunk_to_doc_similarity": 0.7537473440170288,
+          "max_chunk_to_doc_similarity": 0.9999999403953552
+        }
+      },
+      {
+        "doc_id": "19583464",
+        "word_count": 301239,
+        "page_count": null,
+        "ocr_quality": 0.9583297513786827,
+        "full_doc": {
+          "coverage": 0.027194353984709815,
+          "truncated": true,
+          "words_lost": 293047
+        },
+        "passage_chunking": {
+          "n_chunks": 653,
+          "coverage_at_k": {
+            "1": 0.0016996471240443634,
+            "3": 0.00509894137213309,
+            "5": 0.008498235620221816,
+            "10": 0.016996471240443633
+          },
+          "mean_inter_chunk_similarity": 0.7328096628189087,
+          "mean_chunk_to_doc_similarity": 0.7244858741760254,
+          "max_chunk_to_doc_similarity": 1.0
+        }
+      },
+      {
+        "doc_id": "19566780",
+        "word_count": 311348,
+        "page_count": null,
+        "ocr_quality": 0.9783914445536228,
+        "full_doc": {
+          "coverage": 0.026311394324036126,
+          "truncated": true,
+          "words_lost": 303156
+        },
+        "passage_chunking": {
+          "n_chunks": 674,
+          "coverage_at_k": {
+            "1": 0.0016444621452522579,
+            "3": 0.004933386435756774,
+            "5": 0.008222310726261289,
+            "10": 0.016444621452522578
+          },
+          "mean_inter_chunk_similarity": 0.7512527704238892,
+          "mean_chunk_to_doc_similarity": 0.7658984661102295,
+          "max_chunk_to_doc_similarity": 1.0
+        }
+      },
+      {
+        "doc_id": "19566780",
+        "word_count": 311350,
+        "page_count": 16404,
+        "ocr_quality": 0.9773311493603416,
+        "full_doc": {
+          "coverage": 0.026311225309137626,
+          "truncated": true,
+          "words_lost": 303158
+        },
+        "passage_chunking": {
+          "n_chunks": 674,
+          "coverage_at_k": {
+            "1": 0.0016444515818211016,
+            "3": 0.004933354745463305,
+            "5": 0.008222257909105508,
+            "10": 0.016444515818211016
+          },
+          "mean_inter_chunk_similarity": 0.7536438703536987,
+          "mean_chunk_to_doc_similarity": 0.7371450662612915,
+          "max_chunk_to_doc_similarity": 1.0000001192092896
+        }
+      }
+    ]
+  }
+}

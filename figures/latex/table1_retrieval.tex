@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Retrieval performance stratified by OCR quality tier. Higher OCR noise correlates with significant metric degradation.}
+\label{tab:retrieval_ocr}
+\begin{tabular}{llccc}
+\toprule
+Model & OCR Tier & nDCG@10 & MRR & Recall@10 \\
+\midrule
+BM25 & High & 0.494 & 0.458 & 0.611 \\
+ & Medium & 0.353 & 0.308 & 0.500 \\
+ & Low & 0.176 & 0.153 & 0.250 \\
+\midrule
+Dense (BGE) & High & 0.710 & 0.671 & 0.833 \\
+ & Medium & 0.531 & 0.521 & 0.562 \\
+ & Low & 0.283 & 0.233 & 0.438 \\
+\bottomrule
+\end{tabular}
+\end{table}

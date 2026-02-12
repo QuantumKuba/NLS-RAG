@@ -1,0 +1,251 @@
+{
+  "experiment": "Experiment 1: Sparse vs Dense Retrieval Under OCR Noise",
+  "corpus_size": 264,
+  "n_queries": 50,
+  "models": {
+    "bm25": {
+      "overall": {
+        "nDCG@10": {
+          "mean": 0.34705299461486677,
+          "std": 0.4242619741301578
+        },
+        "MRR": {
+          "mean": 0.31238095238095237,
+          "std": 0.4239772273865704
+        },
+        "Recall@10": {
+          "mean": 0.46,
+          "std": 0.49839743177508455
+        }
+      },
+      "by_ocr_tier": {
+        "high": {
+          "n_queries": 18,
+          "nDCG@10": {
+            "mean": 0.49356987037745204,
+            "std": 0.4475744747344858
+          },
+          "MRR": {
+            "mean": 0.457936507936508,
+            "std": 0.45678240308620843
+          },
+          "Recall@10": {
+            "mean": 0.6111111111111112,
+            "std": 0.48749802152178456
+          }
+        },
+        "medium": {
+          "n_queries": 16,
+          "nDCG@10": {
+            "mean": 0.3531789186650792,
+            "std": 0.41082865389808093
+          },
+          "MRR": {
+            "mean": 0.3078869047619047,
+            "std": 0.4121066106296523
+          },
+          "Recall@10": {
+            "mean": 0.5,
+            "std": 0.5
+          }
+        },
+        "low": {
+          "n_queries": 16,
+          "nDCG@10": {
+            "mean": 0.1760955853317459,
+            "std": 0.33902276005508714
+          },
+          "MRR": {
+            "mean": 0.153125,
+            "std": 0.3285711252910091
+          },
+          "Recall@10": {
+            "mean": 0.25,
+            "std": 0.4330127018922193
+          }
+        }
+      }
+    },
+    "dense": {
+      "model_name": "BAAI/bge-small-en-v1.5",
+      "overall": {
+        "nDCG@10": {
+          "mean": 0.5159978016882107,
+          "std": 0.4498304863218085
+        },
+        "MRR": {
+          "mean": 0.48285714285714293,
+          "std": 0.4585986245211584
+        },
+        "Recall@10": {
+          "mean": 0.62,
+          "std": 0.4853864439804639
+        }
+      },
+      "by_ocr_tier": {
+        "high": {
+          "n_queries": 18,
+          "nDCG@10": {
+            "mean": 0.7096678158811608,
+            "std": 0.39242907439539204
+          },
+          "MRR": {
+            "mean": 0.6712962962962963,
+            "std": 0.42534682854605116
+          },
+          "Recall@10": {
+            "mean": 0.8333333333333334,
+            "std": 0.37267799624996495
+          }
+        },
+        "medium": {
+          "n_queries": 16,
+          "nDCG@10": {
+            "mean": 0.53125,
+            "std": 0.4831132760543846
+          },
+          "MRR": {
+            "mean": 0.5208333333333333,
+            "std": 0.4854658415721268
+          },
+          "Recall@10": {
+            "mean": 0.5625,
+            "std": 0.49607837082461076
+          }
+        },
+        "low": {
+          "n_queries": 16,
+          "nDCG@10": {
+            "mean": 0.2828668374093526,
+            "std": 0.3590368847149473
+          },
+          "MRR": {
+            "mean": 0.23288690476190474,
+            "std": 0.3378459622948683
+          },
+          "Recall@10": {
+            "mean": 0.4375,
+            "std": 0.49607837082461076
+          }
+        }
+      }
+    }
+  },
+  "significance_test": {
+    "paired_ttest": {
+      "t_statistic": -2.431744679723108,
+      "p_value": 0.018727669197101803
+    },
+    "wilcoxon": {
+      "w_statistic": 78.0,
+      "p_value": 0.02220060252799224
+    },
+    "mean_diff": -0.16894480707334397
+  },
+  "qualitative_examples": {
+    "bm25_failures": [
+      {
+        "query_id": "Q033",
+        "query": "Who was David Livingstone's companion during his expedition in June 1860?",
+        "relevant_doc_id": "19541218",
+        "ocr_quality": 0.9252682392904354,
+        "ocr_tier": "low",
+        "text_snippet": "Are Souls no.\n\nM in the we were were went f\n\nBodegener\n\ntewater in\nis se\nMind\niet\nmit\nM the\n\nmin Bridle\nven dest Olleries\nsyth t\nlrather veters set in\nSakomente\nIt is name\nMatile and trand.\nis vie\nziren Talen\neben\nHound a heart o\nmass with repeated\nledles and videre\ndron calo\nhisle taster\nwe\n\nan or\n",
+        "failure_type": "relevant_doc_not_retrieved",
+        "explanation": "OCR quality 0.93 - document likely contains OCR errors preventing match"
+      },
+      {
+        "query_id": "Q034",
+        "query": "What types of plant species did Dr. John Kirk encounter during the Zambesi Expedition in 1858-1859?",
+        "relevant_doc_id": "19547844",
+        "ocr_quality": 0.9294753547260424,
+        "ocr_tier": "low",
+        "text_snippet": "April\nzukuzuku\nnear\nThe Lake\n1859\na form of Banana like Ensali\nThe seeds used as heads the stem not\neaten.\n\n1v04\na form of Banana like Ensali\nThe seeds used as heads the stem not\neaten.\nSkelch by Dr Kirk\n\nVatica appen.\nCotzledles infolde\nEntry of out radiell a placed\nat after and outined the mess se",
+        "failure_type": "relevant_doc_not_retrieved",
+        "explanation": "OCR quality 0.93 - document likely contains OCR errors preventing match"
+      },
+      {
+        "query_id": "Q035",
+        "query": "What were David Livingstone's observations about the villages he encountered during his 1860 expedition in Africa?",
+        "relevant_doc_id": "19541103",
+        "ocr_quality": 0.9433790478594093,
+        "ocr_tier": "low",
+        "text_snippet": "Ar 1844\nw 18\n\nM\n\ntreet here called chie.\nBatsha-Mashona -\n5 2 June 1860.\ndow the defile\nmnantana t\nall around -\nRhineers of othere is\nalendanton the to\nInewhere was\nthan elite meal ti\ntrend are a bars for sale\n68\nThis releasing\na build greate\n128. 1.\nmon t28\nBreer at 1 was were of\nvarion 2 June, the",
+        "failure_type": "relevant_doc_not_retrieved",
+        "explanation": "OCR quality 0.94 - document likely contains OCR errors preventing match"
+      },
+      {
+        "query_id": "Q037",
+        "query": "What was the date of the letter written by Livingstone, as mentioned in his diary?",
+        "relevant_doc_id": "19540536",
+        "ocr_quality": 0.9461179187740725,
+        "ocr_tier": "low",
+        "text_snippet": "SENATUS DECRETUM.\nIn halle communi gaum speaket Livingstonus,\nSi quis studens clamabit, aut utteret groanas,\nAut catchabitur peasas aut aliguid throwando,\nAut benchos, aut floorum, aut up rowum kickandos,\nAut creating annoyance ad alios studenses,\nSenatus, 0 Gemini I him bringabit ad senses;\nDer Jov",
+        "failure_type": "relevant_doc_not_retrieved",
+        "explanation": "OCR quality 0.95 - document likely contains OCR errors preventing match"
+      },
+      {
+        "query_id": "Q039",
+        "query": "What was the unusual gift presented to the Royal Engineers' Mess at Chatham by Colonel C. G. Gordon?",
+        "relevant_doc_id": "22146871",
+        "ocr_quality": 0.9404603147049514,
+        "ocr_tier": "low",
+        "text_snippet": "DEPARTMENT OF MANUSCRIPTS\nRecord of Treatment, Extraction, Repair, etc.\nof Ms. no..ADD.51.309.\nDate\nName\nParticulars\nExamined after binding\n4. 9.89\nIB.\n5361 D.730910 5M 9/70 T. P. Gp.794\n\nVo. of Ms. 5130\nNo. of Folios. 16\nKlage\nFolio\u00e2\u0080\u0099d by.\nWt.22959/9 10m 8/50 W.F.A. & Co., Ltd. 51/3\n218 Sept. 94\nD",
+        "failure_type": "relevant_doc_not_retrieved",
+        "explanation": "OCR quality 0.94 - document likely contains OCR errors preventing match"
+      }
+    ],
+    "dense_failures": [
+      {
+        "query_id": "Q033",
+        "query": "Who was David Livingstone's companion during his expedition in June 1860?",
+        "relevant_doc_id": "19541218",
+        "ocr_quality": 0.9252682392904354,
+        "ocr_tier": "low",
+        "text_snippet": "Are Souls no.\n\nM in the we were were went f\n\nBodegener\n\ntewater in\nis se\nMind\niet\nmit\nM the\n\nmin Bridle\nven dest Olleries\nsyth t\nlrather veters set in\nSakomente\nIt is name\nMatile and trand.\nis vie\nziren Talen\neben\nHound a heart o\nmass with repeated\nledles and videre\ndron calo\nhisle taster\nwe\n\nan or\n",
+        "failure_type": "relevant_doc_not_retrieved",
+        "explanation": "OCR quality 0.93 - document likely contains OCR errors preventing match"
+      },
+      {
+        "query_id": "Q035",
+        "query": "What were David Livingstone's observations about the villages he encountered during his 1860 expedition in Africa?",
+        "relevant_doc_id": "19541103",
+        "ocr_quality": 0.9433790478594093,
+        "ocr_tier": "low",
+        "text_snippet": "Ar 1844\nw 18\n\nM\n\ntreet here called chie.\nBatsha-Mashona -\n5 2 June 1860.\ndow the defile\nmnantana t\nall around -\nRhineers of othere is\nalendanton the to\nInewhere was\nthan elite meal ti\ntrend are a bars for sale\n68\nThis releasing\na build greate\n128. 1.\nmon t28\nBreer at 1 was were of\nvarion 2 June, the",
+        "failure_type": "relevant_doc_not_retrieved",
+        "explanation": "OCR quality 0.94 - document likely contains OCR errors preventing match"
+      },
+      {
+        "query_id": "Q036",
+        "query": "What were David Livingstone's experiences with the Bakrains and missionaries during his travels in Africa?",
+        "relevant_doc_id": "22088468",
+        "ocr_quality": 0.9424814212985073,
+        "ocr_tier": "low",
+        "text_snippet": "c\noir\nS\n1 or his setting\nAMETALLIC BOOK.\nThe Writing on these books warranted\nsecure from erasure when written.\nRowne\nwith the accompanying Pencil.\nRECEIPT STAMPS.\n5\nC\n5\nand under\n10\nst\n20\n10\n1\n20\n50\n100\n50\n17\n100\n200\n300\n200\n500\n300\n500\n1000\n1\n1000 and upwards\n188\nForzang sun expiressed in full of ",
+        "failure_type": "relevant_doc_not_retrieved",
+        "explanation": "OCR quality 0.94 - document likely contains OCR errors preventing match"
+      },
+      {
+        "query_id": "Q037",
+        "query": "What was the date of the letter written by Livingstone, as mentioned in his diary?",
+        "relevant_doc_id": "19540536",
+        "ocr_quality": 0.9461179187740725,
+        "ocr_tier": "low",
+        "text_snippet": "SENATUS DECRETUM.\nIn halle communi gaum speaket Livingstonus,\nSi quis studens clamabit, aut utteret groanas,\nAut catchabitur peasas aut aliguid throwando,\nAut benchos, aut floorum, aut up rowum kickandos,\nAut creating annoyance ad alios studenses,\nSenatus, 0 Gemini I him bringabit ad senses;\nDer Jov",
+        "failure_type": "relevant_doc_not_retrieved",
+        "explanation": "OCR quality 0.95 - document likely contains OCR errors preventing match"
+      },
+      {
+        "query_id": "Q041",
+        "query": "What provisions did Colonel George Cadell make for his son George in the event of his death?",
+        "relevant_doc_id": "22365650",
+        "ocr_quality": 0.9496412485129877,
+        "ocr_tier": "low",
+        "text_snippet": "sz.\natter my cleath to hold for off the this of intail out the\nbited for a build in house on soline to thinks prosper\nDispensing with the oblivery house it shelving these fou\nsorts effectual to herever fore at my steccuse, tort\nreserving always try own life tent of the hail formittes and\nF lous ent ",
+        "failure_type": "relevant_doc_not_retrieved",
+        "explanation": "OCR quality 0.95 - document likely contains OCR errors preventing match"
+      }
+    ]
+  }
+}
