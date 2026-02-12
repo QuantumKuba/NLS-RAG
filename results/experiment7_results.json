@@ -1,0 +1,1232 @@
+{
+  "experiment": "Experiment 7: Corpus Statistics & Distributional Analysis",
+  "corpus_size": 281,
+  "vocabulary_stats": {
+    "total_tokens": 10232636,
+    "vocabulary_size": 565785,
+    "type_token_ratio": 0.055292,
+    "hapax_legomena": 354756,
+    "hapax_ratio": 0.627,
+    "dis_legomena": 97224,
+    "top_50_terms": [
+      {
+        "term": "the",
+        "count": 617006,
+        "frequency": 0.060298
+      },
+      {
+        "term": "to",
+        "count": 350081,
+        "frequency": 0.034212
+      },
+      {
+        "term": "of",
+        "count": 348116,
+        "frequency": 0.03402
+      },
+      {
+        "term": "a",
+        "count": 220640,
+        "frequency": 0.021562
+      },
+      {
+        "term": "in",
+        "count": 206271,
+        "frequency": 0.020158
+      },
+      {
+        "term": "and",
+        "count": 194998,
+        "frequency": 0.019056
+      },
+      {
+        "term": "i",
+        "count": 131491,
+        "frequency": 0.01285
+      },
+      {
+        "term": "that",
+        "count": 104289,
+        "frequency": 0.010192
+      },
+      {
+        "term": "it",
+        "count": 88986,
+        "frequency": 0.008696
+      },
+      {
+        "term": "is",
+        "count": 88126,
+        "frequency": 0.008612
+      },
+      {
+        "term": "for",
+        "count": 87554,
+        "frequency": 0.008556
+      },
+      {
+        "term": "be",
+        "count": 80240,
+        "frequency": 0.007842
+      },
+      {
+        "term": "as",
+        "count": 79645,
+        "frequency": 0.007783
+      },
+      {
+        "term": "at",
+        "count": 77444,
+        "frequency": 0.007568
+      },
+      {
+        "term": "on",
+        "count": 74207,
+        "frequency": 0.007252
+      },
+      {
+        "term": "with",
+        "count": 71929,
+        "frequency": 0.007029
+      },
+      {
+        "term": "he",
+        "count": 68536,
+        "frequency": 0.006698
+      },
+      {
+        "term": "his",
+        "count": 60929,
+        "frequency": 0.005954
+      },
+      {
+        "term": "have",
+        "count": 60771,
+        "frequency": 0.005939
+      },
+      {
+        "term": "by",
+        "count": 60080,
+        "frequency": 0.005871
+      },
+      {
+        "term": "this",
+        "count": 59570,
+        "frequency": 0.005822
+      },
+      {
+        "term": "from",
+        "count": 55845,
+        "frequency": 0.005458
+      },
+      {
+        "term": "was",
+        "count": 54878,
+        "frequency": 0.005363
+      },
+      {
+        "term": "not",
+        "count": 52464,
+        "frequency": 0.005127
+      },
+      {
+        "term": "which",
+        "count": 48088,
+        "frequency": 0.004699
+      },
+      {
+        "term": "you",
+        "count": 47296,
+        "frequency": 0.004622
+      },
+      {
+        "term": "but",
+        "count": 43121,
+        "frequency": 0.004214
+      },
+      {
+        "term": "or",
+        "count": 42271,
+        "frequency": 0.004131
+      },
+      {
+        "term": "my",
+        "count": 41598,
+        "frequency": 0.004065
+      },
+      {
+        "term": "are",
+        "count": 40142,
+        "frequency": 0.003923
+      },
+      {
+        "term": "will",
+        "count": 39580,
+        "frequency": 0.003868
+      },
+      {
+        "term": "had",
+        "count": 39124,
+        "frequency": 0.003823
+      },
+      {
+        "term": "an",
+        "count": 38303,
+        "frequency": 0.003743
+      },
+      {
+        "term": "me",
+        "count": 37892,
+        "frequency": 0.003703
+      },
+      {
+        "term": "we",
+        "count": 37330,
+        "frequency": 0.003648
+      },
+      {
+        "term": "all",
+        "count": 35398,
+        "frequency": 0.003459
+      },
+      {
+        "term": "they",
+        "count": 32033,
+        "frequency": 0.00313
+      },
+      {
+        "term": "mr",
+        "count": 30917,
+        "frequency": 0.003021
+      },
+      {
+        "term": "s",
+        "count": 28735,
+        "frequency": 0.002808
+      },
+      {
+        "term": "has",
+        "count": 28706,
+        "frequency": 0.002805
+      },
+      {
+        "term": "so",
+        "count": 28383,
+        "frequency": 0.002774
+      },
+      {
+        "term": "their",
+        "count": 27045,
+        "frequency": 0.002643
+      },
+      {
+        "term": "him",
+        "count": 26929,
+        "frequency": 0.002632
+      },
+      {
+        "term": "one",
+        "count": 26909,
+        "frequency": 0.00263
+      },
+      {
+        "term": "been",
+        "count": 26637,
+        "frequency": 0.002603
+      },
+      {
+        "term": "no",
+        "count": 25779,
+        "frequency": 0.002519
+      },
+      {
+        "term": "your",
+        "count": 24864,
+        "frequency": 0.00243
+      },
+      {
+        "term": "them",
+        "count": 23814,
+        "frequency": 0.002327
+      },
+      {
+        "term": "th",
+        "count": 23735,
+        "frequency": 0.00232
+      },
+      {
+        "term": "were",
+        "count": 23025,
+        "frequency": 0.00225
+      }
+    ],
+    "doc_ttr_mean": 0.3234,
+    "doc_ttr_std": 0.1775,
+    "doc_ttr_median": 0.2539
+  },
+  "zipf_analysis": {
+    "zipf_slope": -1.0425,
+    "zipf_intercept": 13.9845,
+    "zipf_r_squared": 0.9978,
+    "ideal_slope": -1.0,
+    "sample_points": [
+      {
+        "rank": 1,
+        "frequency": 617006
+      },
+      {
+        "rank": 2,
+        "frequency": 350081
+      },
+      {
+        "rank": 3,
+        "frequency": 348116
+      },
+      {
+        "rank": 5,
+        "frequency": 206271
+      },
+      {
+        "rank": 10,
+        "frequency": 88126
+      },
+      {
+        "rank": 25,
+        "frequency": 48088
+      },
+      {
+        "rank": 50,
+        "frequency": 23025
+      },
+      {
+        "rank": 100,
+        "frequency": 9803
+      },
+      {
+        "rank": 250,
+        "frequency": 3748
+      },
+      {
+        "rank": 500,
+        "frequency": 1818
+      },
+      {
+        "rank": 1000,
+        "frequency": 900
+      },
+      {
+        "rank": 2500,
+        "frequency": 319
+      },
+      {
+        "rank": 5000,
+        "frequency": 138
+      },
+      {
+        "rank": 10000,
+        "frequency": 57
+      }
+    ],
+    "n_terms_fitted": 1000
+  },
+  "ocr_distribution": {
+    "n_documents": 281,
+    "n_with_scores": 281,
+    "mean": 0.9689,
+    "median": 0.9795,
+    "std": 0.0307,
+    "min": 0.753,
+    "max": 0.9965,
+    "percentiles": {
+      "P10": 0.9352,
+      "P25": 0.9646,
+      "P50": 0.9795,
+      "P75": 0.9863,
+      "P90": 0.9896
+    },
+    "tiers": {
+      "high": 137,
+      "low": 44,
+      "medium": 100
+    },
+    "histogram": [
+      {
+        "bin_start": 0.5,
+        "bin_end": 0.525,
+        "count": 0
+      },
+      {
+        "bin_start": 0.525,
+        "bin_end": 0.55,
+        "count": 0
+      },
+      {
+        "bin_start": 0.55,
+        "bin_end": 0.575,
+        "count": 0
+      },
+      {
+        "bin_start": 0.575,
+        "bin_end": 0.6,
+        "count": 0
+      },
+      {
+        "bin_start": 0.6,
+        "bin_end": 0.625,
+        "count": 0
+      },
+      {
+        "bin_start": 0.625,
+        "bin_end": 0.65,
+        "count": 0
+      },
+      {
+        "bin_start": 0.65,
+        "bin_end": 0.675,
+        "count": 0
+      },
+      {
+        "bin_start": 0.675,
+        "bin_end": 0.7,
+        "count": 0
+      },
+      {
+        "bin_start": 0.7,
+        "bin_end": 0.725,
+        "count": 0
+      },
+      {
+        "bin_start": 0.725,
+        "bin_end": 0.75,
+        "count": 0
+      },
+      {
+        "bin_start": 0.75,
+        "bin_end": 0.775,
+        "count": 1
+      },
+      {
+        "bin_start": 0.775,
+        "bin_end": 0.8,
+        "count": 0
+      },
+      {
+        "bin_start": 0.8,
+        "bin_end": 0.825,
+        "count": 2
+      },
+      {
+        "bin_start": 0.825,
+        "bin_end": 0.85,
+        "count": 1
+      },
+      {
+        "bin_start": 0.85,
+        "bin_end": 0.875,
+        "count": 1
+      },
+      {
+        "bin_start": 0.875,
+        "bin_end": 0.9,
+        "count": 5
+      },
+      {
+        "bin_start": 0.9,
+        "bin_end": 0.925,
+        "count": 10
+      },
+      {
+        "bin_start": 0.925,
+        "bin_end": 0.95,
+        "count": 24
+      },
+      {
+        "bin_start": 0.95,
+        "bin_end": 0.975,
+        "count": 65
+      },
+      {
+        "bin_start": 0.975,
+        "bin_end": 1.0,
+        "count": 172
+      }
+    ]
+  },
+  "length_analysis": {
+    "length_distribution": {
+      "n_documents": 281,
+      "mean": 38049.7,
+      "median": 24020,
+      "std": 45519.8,
+      "min": 22,
+      "max": 311350,
+      "percentiles": {
+        "P10": 442,
+        "P25": 4523,
+        "P50": 24020,
+        "P75": 56260,
+        "P90": 80360,
+        "P95": 112983,
+        "P99": 207239
+      }
+    },
+    "length_bins": [
+      {
+        "bin": "0-1K",
+        "count": 46,
+        "mean_ocr_quality": 0.9674
+      },
+      {
+        "bin": "1K-5K",
+        "count": 26,
+        "mean_ocr_quality": 0.9544
+      },
+      {
+        "bin": "5K-20K",
+        "count": 51,
+        "mean_ocr_quality": 0.9567
+      },
+      {
+        "bin": "20K-50K",
+        "count": 70,
+        "mean_ocr_quality": 0.9718
+      },
+      {
+        "bin": "50K-100K",
+        "count": 68,
+        "mean_ocr_quality": 0.9785
+      },
+      {
+        "bin": "100K+",
+        "count": 20,
+        "mean_ocr_quality": 0.9803
+      }
+    ],
+    "length_ocr_correlation": 0.1822
+  },
+  "tfidf_by_collection": {
+    "africa_and_new_imperialism": {
+      "n_documents": 122,
+      "top_terms": [
+        {
+          "term": "livingstone",
+          "tfidf": 0.001166,
+          "count": 1503
+        },
+        {
+          "term": "kirk",
+          "tfidf": 0.000781,
+          "count": 1182
+        },
+        {
+          "term": "zanzibar",
+          "tfidf": 0.000619,
+          "count": 837
+        },
+        {
+          "term": "uganda",
+          "tfidf": 0.000558,
+          "count": 636
+        },
+        {
+          "term": "africa",
+          "tfidf": 0.000553,
+          "count": 1490
+        },
+        {
+          "term": "kamrasi",
+          "tfidf": 0.000417,
+          "count": 259
+        },
+        {
+          "term": "slave",
+          "tfidf": 0.000398,
+          "count": 924
+        },
+        {
+          "term": "african",
+          "tfidf": 0.000354,
+          "count": 615
+        },
+        {
+          "term": "sultan",
+          "tfidf": 0.000348,
+          "count": 809
+        },
+        {
+          "term": "men",
+          "tfidf": 0.000344,
+          "count": 5635
+        },
+        {
+          "term": "nile",
+          "tfidf": 0.000335,
+          "count": 637
+        },
+        {
+          "term": "then",
+          "tfidf": 0.000315,
+          "count": 6138
+        },
+        {
+          "term": "missionary",
+          "tfidf": 0.000308,
+          "count": 485
+        },
+        {
+          "term": "people",
+          "tfidf": 0.000294,
+          "count": 3691
+        },
+        {
+          "term": "waganda",
+          "tfidf": 0.000293,
+          "count": 234
+        }
+      ]
+    },
+    "indiaraj": {
+      "n_documents": 159,
+      "top_terms": [
+        {
+          "term": "stuart",
+          "tfidf": 0.000695,
+          "count": 4504
+        },
+        {
+          "term": "cochrane",
+          "tfidf": 0.000619,
+          "count": 2841
+        },
+        {
+          "term": "pigot",
+          "tfidf": 0.00061,
+          "count": 1925
+        },
+        {
+          "term": "general",
+          "tfidf": 0.000475,
+          "count": 10958
+        },
+        {
+          "term": "company",
+          "tfidf": 0.000444,
+          "count": 8017
+        },
+        {
+          "term": "army",
+          "tfidf": 0.000434,
+          "count": 5455
+        },
+        {
+          "term": "madras",
+          "tfidf": 0.000382,
+          "count": 3482
+        },
+        {
+          "term": "lord",
+          "tfidf": 0.000368,
+          "count": 7525
+        },
+        {
+          "term": "india",
+          "tfidf": 0.000348,
+          "count": 5264
+        },
+        {
+          "term": "letter",
+          "tfidf": 0.000327,
+          "count": 12224
+        },
+        {
+          "term": "council",
+          "tfidf": 0.000322,
+          "count": 3313
+        },
+        {
+          "term": "lordfhip",
+          "tfidf": 0.000315,
+          "count": 457
+        },
+        {
+          "term": "government",
+          "tfidf": 0.000313,
+          "count": 5366
+        },
+        {
+          "term": "committee",
+          "tfidf": 0.000309,
+          "count": 3086
+        },
+        {
+          "term": "major",
+          "tfidf": 0.00029,
+          "count": 3168
+        }
+      ]
+    }
+  },
+  "tfidf_by_era": {
+    "1700-1799": {
+      "n_documents": 102,
+      "top_terms": [
+        {
+          "term": "stuart",
+          "tfidf": 0.001019,
+          "count": 4350
+        },
+        {
+          "term": "pigot",
+          "tfidf": 0.000925,
+          "count": 1922
+        },
+        {
+          "term": "cochrane",
+          "tfidf": 0.00092,
+          "count": 2780
+        },
+        {
+          "term": "company",
+          "tfidf": 0.000615,
+          "count": 7317
+        },
+        {
+          "term": "general",
+          "tfidf": 0.000609,
+          "count": 9261
+        },
+        {
+          "term": "army",
+          "tfidf": 0.0006,
+          "count": 4975
+        },
+        {
+          "term": "madras",
+          "tfidf": 0.000491,
+          "count": 2944
+        },
+        {
+          "term": "lordfhip",
+          "tfidf": 0.000479,
+          "count": 457
+        },
+        {
+          "term": "lord",
+          "tfidf": 0.000477,
+          "count": 6428
+        },
+        {
+          "term": "council",
+          "tfidf": 0.000459,
+          "count": 3107
+        },
+        {
+          "term": "committee",
+          "tfidf": 0.000438,
+          "count": 2875
+        },
+        {
+          "term": "india",
+          "tfidf": 0.000415,
+          "count": 4138
+        },
+        {
+          "term": "informant",
+          "tfidf": 0.000412,
+          "count": 708
+        },
+        {
+          "term": "government",
+          "tfidf": 0.000412,
+          "count": 4646
+        },
+        {
+          "term": "french",
+          "tfidf": 0.000391,
+          "count": 3632
+        }
+      ]
+    },
+    "1800-1849": {
+      "n_documents": 59,
+      "top_terms": [
+        {
+          "term": "livingstone",
+          "tfidf": 0.000813,
+          "count": 603
+        },
+        {
+          "term": "colombo",
+          "tfidf": 0.000468,
+          "count": 307
+        },
+        {
+          "term": "africa",
+          "tfidf": 0.000322,
+          "count": 500
+        },
+        {
+          "term": "must",
+          "tfidf": 0.000286,
+          "count": 2067
+        },
+        {
+          "term": "missionary",
+          "tfidf": 0.000283,
+          "count": 256
+        },
+        {
+          "term": "good",
+          "tfidf": 0.000283,
+          "count": 2338
+        },
+        {
+          "term": "moffat",
+          "tfidf": 0.000278,
+          "count": 213
+        },
+        {
+          "term": "got",
+          "tfidf": 0.000263,
+          "count": 1368
+        },
+        {
+          "term": "now",
+          "tfidf": 0.000261,
+          "count": 2706
+        },
+        {
+          "term": "here",
+          "tfidf": 0.000261,
+          "count": 2404
+        },
+        {
+          "term": "country",
+          "tfidf": 0.000258,
+          "count": 1642
+        },
+        {
+          "term": "great",
+          "tfidf": 0.000257,
+          "count": 1925
+        },
+        {
+          "term": "miles",
+          "tfidf": 0.000249,
+          "count": 975
+        },
+        {
+          "term": "then",
+          "tfidf": 0.000246,
+          "count": 2749
+        },
+        {
+          "term": "only",
+          "tfidf": 0.000242,
+          "count": 2001
+        }
+      ]
+    },
+    "1850-1899": {
+      "n_documents": 94,
+      "top_terms": [
+        {
+          "term": "kirk",
+          "tfidf": 0.000697,
+          "count": 1136
+        },
+        {
+          "term": "livingstone",
+          "tfidf": 0.000648,
+          "count": 900
+        },
+        {
+          "term": "zanzibar",
+          "tfidf": 0.000544,
+          "count": 792
+        },
+        {
+          "term": "uganda",
+          "tfidf": 0.000511,
+          "count": 627
+        },
+        {
+          "term": "kamrasi",
+          "tfidf": 0.000388,
+          "count": 259
+        },
+        {
+          "term": "glyn",
+          "tfidf": 0.000381,
+          "count": 277
+        },
+        {
+          "term": "africa",
+          "tfidf": 0.000347,
+          "count": 1008
+        },
+        {
+          "term": "men",
+          "tfidf": 0.000317,
+          "count": 5586
+        },
+        {
+          "term": "sultan",
+          "tfidf": 0.000315,
+          "count": 789
+        },
+        {
+          "term": "here",
+          "tfidf": 0.000301,
+          "count": 5185
+        },
+        {
+          "term": "nile",
+          "tfidf": 0.000284,
+          "count": 582
+        },
+        {
+          "term": "then",
+          "tfidf": 0.000283,
+          "count": 5925
+        },
+        {
+          "term": "village",
+          "tfidf": 0.000274,
+          "count": 1342
+        },
+        {
+          "term": "waganda",
+          "tfidf": 0.000272,
+          "count": 234
+        },
+        {
+          "term": "miles",
+          "tfidf": 0.000267,
+          "count": 1953
+        }
+      ]
+    },
+    "1900+": {
+      "n_documents": 4,
+      "top_terms": [
+        {
+          "term": "bihar",
+          "tfidf": 0.002775,
+          "count": 133
+        },
+        {
+          "term": "valley",
+          "tfidf": 0.00217,
+          "count": 282
+        },
+        {
+          "term": "orissa",
+          "tfidf": 0.002143,
+          "count": 115
+        },
+        {
+          "term": "aboriginal",
+          "tfidf": 0.001612,
+          "count": 72
+        },
+        {
+          "term": "snow",
+          "tfidf": 0.001571,
+          "count": 246
+        },
+        {
+          "term": "plateau",
+          "tfidf": 0.001458,
+          "count": 91
+        },
+        {
+          "term": "shyok",
+          "tfidf": 0.001439,
+          "count": 48
+        },
+        {
+          "term": "srinagar",
+          "tfidf": 0.001404,
+          "count": 51
+        },
+        {
+          "term": "climbed",
+          "tfidf": 0.001338,
+          "count": 70
+        },
+        {
+          "term": "gangtok",
+          "tfidf": 0.001321,
+          "count": 48
+        },
+        {
+          "term": "ridge",
+          "tfidf": 0.001277,
+          "count": 115
+        },
+        {
+          "term": "nagpur",
+          "tfidf": 0.001239,
+          "count": 45
+        },
+        {
+          "term": "miles",
+          "tfidf": 0.001236,
+          "count": 452
+        },
+        {
+          "term": "peaks",
+          "tfidf": 0.001216,
+          "count": 70
+        },
+        {
+          "term": "odd",
+          "tfidf": 0.001144,
+          "count": 133
+        }
+      ]
+    },
+    "pre-1700": {
+      "n_documents": 14,
+      "top_terms": [
+        {
+          "term": "khartoum",
+          "tfidf": 0.004956,
+          "count": 79
+        },
+        {
+          "term": "rebels",
+          "tfidf": 0.004327,
+          "count": 104
+        },
+        {
+          "term": "ahmad",
+          "tfidf": 0.004037,
+          "count": 60
+        },
+        {
+          "term": "headquarters",
+          "tfidf": 0.003804,
+          "count": 67
+        },
+        {
+          "term": "pasha",
+          "tfidf": 0.003401,
+          "count": 61
+        },
+        {
+          "term": "agha",
+          "tfidf": 0.003095,
+          "count": 46
+        },
+        {
+          "term": "hoops",
+          "tfidf": 0.002909,
+          "count": 87
+        },
+        {
+          "term": "provincial",
+          "tfidf": 0.002359,
+          "count": 56
+        },
+        {
+          "term": "grabs",
+          "tfidf": 0.002341,
+          "count": 33
+        },
+        {
+          "term": "shaikh",
+          "tfidf": 0.002337,
+          "count": 32
+        },
+        {
+          "term": "bashi",
+          "tfidf": 0.001859,
+          "count": 23
+        },
+        {
+          "term": "salih",
+          "tfidf": 0.001852,
+          "count": 21
+        },
+        {
+          "term": "unana",
+          "tfidf": 0.001789,
+          "count": 18
+        },
+        {
+          "term": "sheikh",
+          "tfidf": 0.001749,
+          "count": 26
+        },
+        {
+          "term": "loops",
+          "tfidf": 0.001716,
+          "count": 34
+        }
+      ]
+    },
+    "unknown": {
+      "n_documents": 8,
+      "top_terms": [
+        {
+          "term": "junaries",
+          "tfidf": 0.001227,
+          "count": 58
+        },
+        {
+          "term": "lous",
+          "tfidf": 0.000951,
+          "count": 199
+        },
+        {
+          "term": "cous",
+          "tfidf": 0.000941,
+          "count": 175
+        },
+        {
+          "term": "sunaries",
+          "tfidf": 0.000889,
+          "count": 42
+        },
+        {
+          "term": "ths",
+          "tfidf": 0.000841,
+          "count": 106
+        },
+        {
+          "term": "cohen",
+          "tfidf": 0.000696,
+          "count": 77
+        },
+        {
+          "term": "musquel",
+          "tfidf": 0.000675,
+          "count": 41
+        },
+        {
+          "term": "ohs",
+          "tfidf": 0.000619,
+          "count": 34
+        },
+        {
+          "term": "clied",
+          "tfidf": 0.000586,
+          "count": 34
+        },
+        {
+          "term": "stuart",
+          "tfidf": 0.000554,
+          "count": 117
+        },
+        {
+          "term": "officers",
+          "tfidf": 0.000533,
+          "count": 266
+        },
+        {
+          "term": "tims",
+          "tfidf": 0.00053,
+          "count": 46
+        },
+        {
+          "term": "loits",
+          "tfidf": 0.000503,
+          "count": 33
+        },
+        {
+          "term": "general",
+          "tfidf": 0.000501,
+          "count": 377
+        },
+        {
+          "term": "nabob",
+          "tfidf": 0.000497,
+          "count": 76
+        }
+      ]
+    }
+  },
+  "temporal_coverage": {
+    "date_range": {
+      "earliest": 1299,
+      "latest": 1937,
+      "span_years": 638
+    },
+    "by_decade": {
+      "1290s": 1,
+      "1300s": 10,
+      "1310s": 3,
+      "1760s": 5,
+      "1770s": 26,
+      "1780s": 63,
+      "1790s": 8,
+      "1800s": 25,
+      "1810s": 2,
+      "1820s": 7,
+      "1830s": 9,
+      "1840s": 16,
+      "1850s": 67,
+      "1860s": 21,
+      "1870s": 1,
+      "1880s": 1,
+      "1890s": 4,
+      "1920s": 1,
+      "1930s": 3
+    },
+    "by_era": {
+      "1700-1799": 102,
+      "1800-1849": 59,
+      "1850-1899": 94,
+      "1900+": 4,
+      "pre-1700": 14
+    },
+    "by_collection_era": {
+      "africa_and_new_imperialism": {
+        "1700-1799": 1,
+        "1800-1849": 40,
+        "1850-1899": 67,
+        "pre-1700": 14
+      },
+      "indiaraj": {
+        "1700-1799": 101,
+        "1800-1849": 19,
+        "1850-1899": 27,
+        "1900+": 4
+      }
+    }
+  },
+  "collection_stats": {
+    "africa_and_new_imperialism": {
+      "n_documents": 122,
+      "total_tokens": 3068774,
+      "vocabulary_size": 201239,
+      "type_token_ratio": 0.0656,
+      "mean_doc_length": 26117.0,
+      "median_doc_length": 3069.5,
+      "mean_ocr_quality": 0.9651,
+      "ocr_tiers": {
+        "high": 63,
+        "low": 34,
+        "medium": 25
+      },
+      "date_range": "1299-1860"
+    },
+    "indiaraj": {
+      "n_documents": 159,
+      "total_tokens": 7163862,
+      "vocabulary_size": 444841,
+      "type_token_ratio": 0.0621,
+      "mean_doc_length": 47205.6,
+      "median_doc_length": 42287,
+      "mean_ocr_quality": 0.9719,
+      "ocr_tiers": {
+        "high": 74,
+        "low": 10,
+        "medium": 75
+      },
+      "date_range": "1762-1937"
+    }
+  }
+}

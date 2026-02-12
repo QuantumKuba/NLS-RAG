@@ -9,7 +9,11 @@ Steps:
   4. Run Experiment 1 (Retrieval)
   5. Run Experiment 2 (RAG)
   6. Run Experiment 3 (Length)
-  7. Generate results & figures
+  7. Run Experiment 4 (Temporal Analysis)
+  8. Run Experiment 5 (Cross-Collection)
+  9. Run Experiment 6 (Noise Robustness)
+  10. Run Experiment 7 (Corpus Statistics)
+  11. Generate results & figures
 
 Usage:
     python run_all.py                    # Run everything
@@ -89,6 +93,42 @@ STEPS = {
         "description": "Document length impact on retrieval.",
     },
     7: {
+        "name": "Experiment 4: Temporal Analysis",
+        "script": "experiments/experiment4_temporal.py",
+        "args": [
+            "--corpus", str(DATA_DIR / "corpus.jsonl"),
+            "--output", str(RESULTS_DIR),
+        ],
+        "description": "Lexical drift and cross-temporal retrieval across centuries.",
+    },
+    8: {
+        "name": "Experiment 5: Cross-Collection",
+        "script": "experiments/experiment5_cross_collection.py",
+        "args": [
+            "--corpus", str(DATA_DIR / "corpus.jsonl"),
+            "--output", str(RESULTS_DIR),
+        ],
+        "description": "OCR quality, vocabulary, and retrieval comparison across collections.",
+    },
+    9: {
+        "name": "Experiment 6: Noise Robustness",
+        "script": "experiments/experiment6_noise_robustness.py",
+        "args": [
+            "--corpus", str(DATA_DIR / "corpus.jsonl"),
+            "--output", str(RESULTS_DIR),
+        ],
+        "description": "BM25 vs Dense retrieval robustness under synthetic OCR noise.",
+    },
+    10: {
+        "name": "Experiment 7: Corpus Statistics",
+        "script": "experiments/experiment7_corpus_stats.py",
+        "args": [
+            "--corpus", str(DATA_DIR / "corpus.jsonl"),
+            "--output", str(RESULTS_DIR),
+        ],
+        "description": "Vocabulary richness, Zipf's law, OCR distributions, TF-IDF analysis.",
+    },
+    11: {
         "name": "Generate Results",
         "script": "analysis/generate_results.py",
         "args": [
@@ -159,7 +199,11 @@ Steps:
   4: Experiment 1 - Retrieval Under OCR Noise
   5: Experiment 2 - RAG Hallucination
   6: Experiment 3 - Document Length
-  7: Generate Results (Figures + Tables)
+  7: Experiment 4 - Temporal Analysis
+  8: Experiment 5 - Cross-Collection
+  9: Experiment 6 - Noise Robustness
+  10: Experiment 7 - Corpus Statistics
+  11: Generate Results (Figures + Tables)
         """,
     )
     parser.add_argument(

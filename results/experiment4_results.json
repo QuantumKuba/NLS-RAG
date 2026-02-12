@@ -1,0 +1,670 @@
+{
+  "experiment": "Experiment 4: Temporal Retrieval Analysis",
+  "corpus_size": 281,
+  "era_distribution": {
+    "pre-1700": 14,
+    "1700-1799": 102,
+    "1800-1849": 59,
+    "1850-1899": 94,
+    "1900+": 4,
+    "unknown": 8
+  },
+  "lexical_drift": {
+    "era_vocabulary_stats": {
+      "pre-1700": {
+        "vocabulary_size": 9865,
+        "total_tokens": 45684,
+        "ttr": 0.2159
+      },
+      "1700-1799": {
+        "vocabulary_size": 292622,
+        "total_tokens": 4718615,
+        "ttr": 0.062
+      },
+      "1800-1849": {
+        "vocabulary_size": 141750,
+        "total_tokens": 1765904,
+        "ttr": 0.0803
+      },
+      "1850-1899": {
+        "vocabulary_size": 247288,
+        "total_tokens": 3303817,
+        "ttr": 0.0748
+      },
+      "1900+": {
+        "vocabulary_size": 23536,
+        "total_tokens": 164918,
+        "ttr": 0.1427
+      }
+    },
+    "pairwise_similarity": {
+      "pre-1700 <-> 1700-1799": {
+        "jaccard_similarity": 0.0197,
+        "shared_terms": 5849,
+        "union_terms": 296638,
+        "unique_to_first": 4016,
+        "unique_to_second": 286773
+      },
+      "pre-1700 <-> 1800-1849": {
+        "jaccard_similarity": 0.0365,
+        "shared_terms": 5333,
+        "union_terms": 146282,
+        "unique_to_first": 4532,
+        "unique_to_second": 136417
+      },
+      "pre-1700 <-> 1850-1899": {
+        "jaccard_similarity": 0.0235,
+        "shared_terms": 5915,
+        "union_terms": 251238,
+        "unique_to_first": 3950,
+        "unique_to_second": 241373
+      },
+      "pre-1700 <-> 1900+": {
+        "jaccard_similarity": 0.105,
+        "shared_terms": 3173,
+        "union_terms": 30228,
+        "unique_to_first": 6692,
+        "unique_to_second": 20363
+      },
+      "1700-1799 <-> 1800-1849": {
+        "jaccard_similarity": 0.1552,
+        "shared_terms": 58372,
+        "union_terms": 376000,
+        "unique_to_first": 234250,
+        "unique_to_second": 83378
+      },
+      "1700-1799 <-> 1850-1899": {
+        "jaccard_similarity": 0.1544,
+        "shared_terms": 72195,
+        "union_terms": 467715,
+        "unique_to_first": 220427,
+        "unique_to_second": 175093
+      },
+      "1700-1799 <-> 1900+": {
+        "jaccard_similarity": 0.0454,
+        "shared_terms": 13724,
+        "union_terms": 302434,
+        "unique_to_first": 278898,
+        "unique_to_second": 9812
+      },
+      "1800-1849 <-> 1850-1899": {
+        "jaccard_similarity": 0.1741,
+        "shared_terms": 57694,
+        "union_terms": 331344,
+        "unique_to_first": 84056,
+        "unique_to_second": 189594
+      },
+      "1800-1849 <-> 1900+": {
+        "jaccard_similarity": 0.085,
+        "shared_terms": 12944,
+        "union_terms": 152342,
+        "unique_to_first": 128806,
+        "unique_to_second": 10592
+      },
+      "1850-1899 <-> 1900+": {
+        "jaccard_similarity": 0.0568,
+        "shared_terms": 14551,
+        "union_terms": 256273,
+        "unique_to_first": 232737,
+        "unique_to_second": 8985
+      }
+    },
+    "consecutive_drift": [
+      {
+        "pair": "pre-1700 <-> 1700-1799",
+        "drift": 0.9803
+      },
+      {
+        "pair": "1700-1799 <-> 1800-1849",
+        "drift": 0.8448
+      },
+      {
+        "pair": "1800-1849 <-> 1850-1899",
+        "drift": 0.8259
+      },
+      {
+        "pair": "1850-1899 <-> 1900+",
+        "drift": 0.9432
+      }
+    ],
+    "era_unique_terms": {
+      "pre-1700": [
+        {
+          "term": "salih",
+          "count": 21
+        },
+        {
+          "term": "uthman",
+          "count": 20
+        },
+        {
+          "term": "maldi",
+          "count": 19
+        },
+        {
+          "term": "muled",
+          "count": 16
+        },
+        {
+          "term": "bazouks",
+          "count": 15
+        },
+        {
+          "term": "sennar",
+          "count": 13
+        },
+        {
+          "term": "massawah",
+          "count": 13
+        },
+        {
+          "term": "massawa",
+          "count": 12
+        },
+        {
+          "term": "muhd",
+          "count": 12
+        },
+        {
+          "term": "chirah",
+          "count": 11
+        },
+        {
+          "term": "ultiman",
+          "count": 11
+        },
+        {
+          "term": "k's",
+          "count": 10
+        },
+        {
+          "term": "kawah",
+          "count": 10
+        },
+        {
+          "term": "saigid",
+          "count": 10
+        },
+        {
+          "term": "allulah",
+          "count": 10
+        },
+        {
+          "term": "jihadiyah",
+          "count": 10
+        },
+        {
+          "term": "amadib",
+          "count": 10
+        },
+        {
+          "term": "hordon",
+          "count": 9
+        },
+        {
+          "term": "pailed",
+          "count": 9
+        },
+        {
+          "term": "servishes",
+          "count": 9
+        }
+      ],
+      "1700-1799": [
+        {
+          "term": "pigot",
+          "count": 1922
+        },
+        {
+          "term": "macartney",
+          "count": 695
+        },
+        {
+          "term": "sippoo",
+          "count": 504
+        },
+        {
+          "term": "tippoo",
+          "count": 504
+        },
+        {
+          "term": "lordfhip",
+          "count": 457
+        },
+        {
+          "term": "houfe",
+          "count": 344
+        },
+        {
+          "term": "brissy",
+          "count": 325
+        },
+        {
+          "term": "lysaght",
+          "count": 298
+        },
+        {
+          "term": "suffrein",
+          "count": 280
+        },
+        {
+          "term": "deponent",
+          "count": 275
+        },
+        {
+          "term": "sanjore",
+          "count": 275
+        },
+        {
+          "term": "aprile",
+          "count": 270
+        },
+        {
+          "term": "garce",
+          "count": 260
+        },
+        {
+          "term": "franquebar",
+          "count": 255
+        },
+        {
+          "term": "tangore",
+          "count": 229
+        },
+        {
+          "term": "chillumbrum",
+          "count": 223
+        },
+        {
+          "term": "fuddalore",
+          "count": 221
+        },
+        {
+          "term": "nabobs",
+          "count": 216
+        },
+        {
+          "term": "panjore",
+          "count": 200
+        },
+        {
+          "term": "tippos",
+          "count": 199
+        }
+      ],
+      "1800-1849": [
+        {
+          "term": "lingapore",
+          "count": 75
+        },
+        {
+          "term": "maddike",
+          "count": 46
+        },
+        {
+          "term": "livinestone",
+          "count": 44
+        },
+        {
+          "term": "appolonians",
+          "count": 35
+        },
+        {
+          "term": "fetish",
+          "count": 34
+        },
+        {
+          "term": "nyinyesi",
+          "count": 32
+        },
+        {
+          "term": "moselchatse",
+          "count": 30
+        },
+        {
+          "term": "kokan",
+          "count": 28
+        },
+        {
+          "term": "andris",
+          "count": 25
+        },
+        {
+          "term": "hongkong",
+          "count": 25
+        },
+        {
+          "term": "appolonia",
+          "count": 24
+        },
+        {
+          "term": "peshawur",
+          "count": 24
+        },
+        {
+          "term": "jabour",
+          "count": 24
+        },
+        {
+          "term": "baharusse",
+          "count": 24
+        },
+        {
+          "term": "abomey",
+          "count": 22
+        },
+        {
+          "term": "kitanda",
+          "count": 22
+        },
+        {
+          "term": "bobertson",
+          "count": 21
+        },
+        {
+          "term": "bauldie",
+          "count": 20
+        },
+        {
+          "term": "whitney",
+          "count": 20
+        },
+        {
+          "term": "medusa",
+          "count": 20
+        }
+      ],
+      "1850-1899": [
+        {
+          "term": "glyn",
+          "count": 277
+        },
+        {
+          "term": "kamrasi",
+          "count": 259
+        },
+        {
+          "term": "waganda",
+          "count": 234
+        },
+        {
+          "term": "baraka",
+          "count": 234
+        },
+        {
+          "term": "unyoro",
+          "count": 195
+        },
+        {
+          "term": "mtesa",
+          "count": 126
+        },
+        {
+          "term": "ochre",
+          "count": 111
+        },
+        {
+          "term": "cobalt",
+          "count": 102
+        },
+        {
+          "term": "sienna",
+          "count": 99
+        },
+        {
+          "term": "rumanika",
+          "count": 90
+        },
+        {
+          "term": "petherick",
+          "count": 83
+        },
+        {
+          "term": "karag",
+          "count": 82
+        },
+        {
+          "term": "ugogo",
+          "count": 82
+        },
+        {
+          "term": "gondokoro",
+          "count": 80
+        },
+        {
+          "term": "hongo",
+          "count": 80
+        },
+        {
+          "term": "wakungu",
+          "count": 79
+        },
+        {
+          "term": "balises",
+          "count": 78
+        },
+        {
+          "term": "usui",
+          "count": 77
+        },
+        {
+          "term": "soudan",
+          "count": 74
+        },
+        {
+          "term": "spooner",
+          "count": 71
+        }
+      ],
+      "1900+": [
+        {
+          "term": "shyok",
+          "count": 48
+        },
+        {
+          "term": "nagpur",
+          "count": 45
+        },
+        {
+          "term": "elsie",
+          "count": 35
+        },
+        {
+          "term": "kardung",
+          "count": 22
+        },
+        {
+          "term": "dravidian",
+          "count": 22
+        },
+        {
+          "term": "kargil",
+          "count": 21
+        },
+        {
+          "term": "risoe",
+          "count": 21
+        },
+        {
+          "term": "parbat",
+          "count": 21
+        },
+        {
+          "term": "deosai",
+          "count": 20
+        },
+        {
+          "term": "pullman",
+          "count": 20
+        },
+        {
+          "term": "skardu",
+          "count": 19
+        },
+        {
+          "term": "sebu",
+          "count": 19
+        },
+        {
+          "term": "ladakh",
+          "count": 18
+        },
+        {
+          "term": "raiyats",
+          "count": 18
+        },
+        {
+          "term": "chombu",
+          "count": 17
+        },
+        {
+          "term": "burzil",
+          "count": 16
+        },
+        {
+          "term": "kanchen",
+          "count": 15
+        },
+        {
+          "term": "yosemite",
+          "count": 14
+        },
+        {
+          "term": "awob",
+          "count": 14
+        },
+        {
+          "term": "sequoia",
+          "count": 14
+        }
+      ]
+    }
+  },
+  "bm25_per_era": {
+    "pre-1700": {
+      "n_documents": 14,
+      "mean_top_bm25_score": 2.3479
+    },
+    "1700-1799": {
+      "n_documents": 102,
+      "mean_top_bm25_score": 4.5111
+    },
+    "1800-1849": {
+      "n_documents": 59,
+      "mean_top_bm25_score": 6.5656
+    },
+    "1850-1899": {
+      "n_documents": 94,
+      "mean_top_bm25_score": 8.0819
+    },
+    "1900+": {
+      "n_documents": 4,
+      "mean_top_bm25_score": 2.5389
+    }
+  },
+  "dense_retrieval_per_era": {
+    "pre-1700": {
+      "n_documents": 14,
+      "mean_top_similarity": 0.5441,
+      "mean_top1_similarity": 0.6052
+    },
+    "1700-1799": {
+      "n_documents": 102,
+      "mean_top_similarity": 0.6098,
+      "mean_top1_similarity": 0.6442
+    },
+    "1800-1849": {
+      "n_documents": 59,
+      "mean_top_similarity": 0.5803,
+      "mean_top1_similarity": 0.6227
+    },
+    "1850-1899": {
+      "n_documents": 94,
+      "mean_top_similarity": 0.6107,
+      "mean_top1_similarity": 0.6555
+    },
+    "1900+": {
+      "n_documents": 4,
+      "mean_top_similarity": 0.516,
+      "mean_top1_similarity": 0.582
+    }
+  },
+  "cross_temporal_retrieval": {
+    "era_queries": {
+      "pre-1700": [
+        "khartoum rebels ahmad",
+        "rebels ahmad headquarters",
+        "ahmad headquarters pasha"
+      ],
+      "1700-1799": [
+        "stuart pigot cochrane",
+        "pigot cochrane company",
+        "cochrane company general"
+      ],
+      "1800-1849": [
+        "livingstone colombo them",
+        "colombo them your",
+        "them your africa"
+      ],
+      "1850-1899": [
+        "kirk livingstone zanzibar",
+        "livingstone zanzibar uganda",
+        "zanzibar uganda them"
+      ],
+      "1900+": [
+        "bihar orissa valley",
+        "orissa valley aboriginal",
+        "valley aboriginal snow"
+      ]
+    },
+    "retrieval_matrix": {
+      "pre-1700": {
+        "pre-1700": 0.8,
+        "1700-1799": 0.0333,
+        "1800-1849": 0.0,
+        "1850-1899": 0.1667,
+        "1900+": 0.0
+      },
+      "1700-1799": {
+        "pre-1700": 0.0,
+        "1700-1799": 0.7,
+        "1800-1849": 0.0667,
+        "1850-1899": 0.2333,
+        "1900+": 0.0
+      },
+      "1800-1849": {
+        "pre-1700": 0.0,
+        "1700-1799": 0.1667,
+        "1800-1849": 0.1667,
+        "1850-1899": 0.6667,
+        "1900+": 0.0
+      },
+      "1850-1899": {
+        "pre-1700": 0.0,
+        "1700-1799": 0.0,
+        "1800-1849": 0.0333,
+        "1850-1899": 0.9667,
+        "1900+": 0.0
+      },
+      "1900+": {
+        "pre-1700": 0.0,
+        "1700-1799": 0.2,
+        "1800-1849": 0.0333,
+        "1850-1899": 0.7,
+        "1900+": 0.0667
+      }
+    }
+  },
+  "test_queries": [
+    "colonial administration India",
+    "trade commerce East India Company",
+    "missionary exploration Africa",
+    "correspondence official letters",
+    "political negotiations treaty",
+    "military expedition campaign",
+    "natural history specimens botanical",
+    "railway construction engineering",
+    "tribal customs traditional practices",
+    "legislative council governance"
+  ]
+}

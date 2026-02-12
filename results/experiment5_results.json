@@ -1,0 +1,278 @@
+{
+  "experiment": "Experiment 5: Cross-Collection Comparative Analysis",
+  "corpus_size": 281,
+  "collection_counts": {
+    "africa_and_new_imperialism": 122,
+    "indiaraj": 159
+  },
+  "ocr_comparison": {
+    "africa_and_new_imperialism": {
+      "n_documents": 122,
+      "mean_ocr": 0.9651,
+      "median_ocr": 0.9802,
+      "std_ocr": 0.034,
+      "min_ocr": 0.753,
+      "max_ocr": 0.9965,
+      "tiers": {
+        "high": 63,
+        "low": 34,
+        "medium": 25
+      }
+    },
+    "indiaraj": {
+      "n_documents": 159,
+      "mean_ocr": 0.9719,
+      "median_ocr": 0.9786,
+      "std_ocr": 0.0277,
+      "min_ocr": 0.8097,
+      "max_ocr": 0.9932,
+      "tiers": {
+        "high": 74,
+        "low": 10,
+        "medium": 75
+      }
+    }
+  },
+  "vocabulary_overlap": {
+    "collections": {
+      "africa_and_new_imperialism": {
+        "vocab_size": 201239,
+        "total_tokens": 3068774
+      },
+      "indiaraj": {
+        "vocab_size": 444841,
+        "total_tokens": 7163862
+      }
+    },
+    "pairwise_overlap": {
+      "africa_and_new_imperialism <-> indiaraj": {
+        "jaccard_similarity": 0.1419,
+        "shared_terms": 80295,
+        "only_in_first": 120944,
+        "only_in_second": 364546,
+        "top_shared_terms": [
+          {
+            "term": "the",
+            "combined_freq": 617006
+          },
+          {
+            "term": "to",
+            "combined_freq": 350081
+          },
+          {
+            "term": "of",
+            "combined_freq": 348116
+          },
+          {
+            "term": "a",
+            "combined_freq": 220640
+          },
+          {
+            "term": "in",
+            "combined_freq": 206271
+          },
+          {
+            "term": "and",
+            "combined_freq": 194998
+          },
+          {
+            "term": "i",
+            "combined_freq": 131491
+          },
+          {
+            "term": "that",
+            "combined_freq": 104289
+          },
+          {
+            "term": "it",
+            "combined_freq": 88986
+          },
+          {
+            "term": "is",
+            "combined_freq": 88126
+          },
+          {
+            "term": "for",
+            "combined_freq": 87554
+          },
+          {
+            "term": "be",
+            "combined_freq": 80240
+          },
+          {
+            "term": "as",
+            "combined_freq": 79645
+          },
+          {
+            "term": "at",
+            "combined_freq": 77444
+          },
+          {
+            "term": "on",
+            "combined_freq": 74207
+          }
+        ],
+        "top_unique_to_first": [
+          {
+            "term": "livingstone",
+            "freq": 1503
+          },
+          {
+            "term": "uganda",
+            "freq": 636
+          },
+          {
+            "term": "khartoum",
+            "freq": 312
+          },
+          {
+            "term": "makololo",
+            "freq": 282
+          },
+          {
+            "term": "kamrasi",
+            "freq": 259
+          },
+          {
+            "term": "zambesi",
+            "freq": 241
+          },
+          {
+            "term": "baraka",
+            "freq": 234
+          },
+          {
+            "term": "waganda",
+            "freq": 234
+          },
+          {
+            "term": "nyassa",
+            "freq": 220
+          },
+          {
+            "term": "unyoro",
+            "freq": 195
+          },
+          {
+            "term": "zambezi",
+            "freq": 155
+          },
+          {
+            "term": "kuruman",
+            "freq": 154
+          },
+          {
+            "term": "rovuma",
+            "freq": 135
+          },
+          {
+            "term": "mtesa",
+            "freq": 126
+          },
+          {
+            "term": "loanda",
+            "freq": 119
+          }
+        ],
+        "top_unique_to_second": [
+          {
+            "term": "pigot",
+            "freq": 1925
+          },
+          {
+            "term": "pagodas",
+            "freq": 818
+          },
+          {
+            "term": "companys",
+            "freq": 703
+          },
+          {
+            "term": "macartney",
+            "freq": 703
+          },
+          {
+            "term": "buddalore",
+            "freq": 530
+          },
+          {
+            "term": "tippoo",
+            "freq": 511
+          },
+          {
+            "term": "sippoo",
+            "freq": 509
+          },
+          {
+            "term": "bussy",
+            "freq": 495
+          },
+          {
+            "term": "negapatam",
+            "freq": 478
+          },
+          {
+            "term": "sulivan",
+            "freq": 464
+          },
+          {
+            "term": "nagore",
+            "freq": 463
+          },
+          {
+            "term": "lordfhip",
+            "freq": 457
+          },
+          {
+            "term": "mangalore",
+            "freq": 394
+          },
+          {
+            "term": "madrass",
+            "freq": 380
+          },
+          {
+            "term": "stratton",
+            "freq": 380
+          }
+        ]
+      }
+    }
+  },
+  "cross_collection_retrieval": {
+    "africa_and_new_imperialism": {
+      "queries": [
+        "livingstone kirk zanzibar",
+        "uganda africa them",
+        "kamrasi slave african"
+      ],
+      "retrieval_from": {
+        "africa_and_new_imperialism": {
+          "mean_top1_similarity": 0.71,
+          "mean_topk_similarity": 0.6461
+        },
+        "indiaraj": {
+          "mean_top1_similarity": 0.6021,
+          "mean_topk_similarity": 0.5732
+        }
+      }
+    },
+    "indiaraj": {
+      "queries": [
+        "stuart cochrane pigot",
+        "general company army",
+        "your madras upon"
+      ],
+      "retrieval_from": {
+        "africa_and_new_imperialism": {
+          "mean_top1_similarity": 0.5991,
+          "mean_topk_similarity": 0.5742
+        },
+        "indiaraj": {
+          "mean_top1_similarity": 0.6559,
+          "mean_topk_similarity": 0.6234
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "n_documents": 137,
+  "n_queries": 8,
+  "error_rates": [
+    {
+      "target_cer": 0.05,
+      "actual_cer": 0.0499,
+      "bm25": {
+        "ranking_overlap_at10": 0.8,
+        "score_degradation": -0.0797
+      },
+      "dense": {
+        "ranking_overlap_at10": 0.5778,
+        "score_degradation": 0.0117
+      }
+    },
+    {
+      "target_cer": 0.1,
+      "actual_cer": 0.0999,
+      "bm25": {
+        "ranking_overlap_at10": 0.6306,
+        "score_degradation": 0.0116
+      },
+      "dense": {
+        "ranking_overlap_at10": 0.5167,
+        "score_degradation": 0.0349
+      }
+    },
+    {
+      "target_cer": 0.2,
+      "actual_cer": 0.2,
+      "bm25": {
+        "ranking_overlap_at10": 0.4097,
+        "score_degradation": -0.0977
+      },
+      "dense": {
+        "ranking_overlap_at10": 0.3597,
+        "score_degradation": 0.0615
+      }
+    },
+    {
+      "target_cer": 0.3,
+      "actual_cer": 0.2999,
+      "bm25": {
+        "ranking_overlap_at10": 0.3722,
+        "score_degradation": 0.1417
+      },
+      "dense": {
+        "ranking_overlap_at10": 0.2583,
+        "score_degradation": 0.0973
+      }
+    }
+  ]
+}
