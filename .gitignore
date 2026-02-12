@@ -17,7 +17,6 @@ data/extracted/
 .vscode/
 .idea/
 
-data/
 venv39/
 .env
 
