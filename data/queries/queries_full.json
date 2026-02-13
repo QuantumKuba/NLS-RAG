@@ -8,8 +8,10 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9850827513652234,
     "query_id": "Q001",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "Who led the expedition to Aba Island in response to the disturbances caused by the Mahdi Muhammad Ahmad in 1887?",
@@ -20,8 +22,10 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9902547657705952,
     "query_id": "Q002",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "Where was Lord Cornwallis located on August 24, 1786, when he wrote a letter to Mr. Dundas?",
@@ -32,8 +36,10 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9809332048675092,
     "query_id": "Q003",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What concerns did British women in India express about joining their husbands abroad during the mid-19th century?",
@@ -44,8 +50,10 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9912395070722124,
     "query_id": "Q004",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "Who were some notable army personnel in the Bengal Army during the late 18th and early 19th centuries?",
@@ -56,20 +64,10 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9840766278275578,
     "query_id": "Q005",
-    "verified_by": [],
-    "status": "generated"
-  },
-  {
-    "query": "Who led the rebels in the Fall of Senar in 1300?",
-    "query_type": "factoid",
-    "expected_answer": "An-LADIR GON An-noswa, Murry MALIK ABS ROF, and anfLiB",
-    "difficulty": "medium",
-    "doc_id": "20656695",
-    "ocr_quality_tier": "high",
-    "ocr_quality": 0.9857687223936303,
-    "query_id": "Q006",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What was the cause of John's brother's death in Singlee, as reported to Elizabeth Meredith in 1840?",
@@ -80,8 +78,10 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9804379057278004,
     "query_id": "Q007",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What were the terms of General Ramsay's inheritance of the Lands of Rinkell and other properties from his father?",
@@ -92,8 +92,10 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9842563608463374,
     "query_id": "Q008",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What were the powers and authority of the President in relation to the Council of Fort St George in 1776?",
@@ -104,8 +106,10 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9810271197957007,
     "query_id": "Q009",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "Who did Major-General James Stuart appoint as a serjeant in 1776, and what was the reason behind this appointment?",
@@ -116,8 +120,10 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9863533970514855,
     "query_id": "Q010",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What geographical features and natural resources were observed during an expedition in Africa in December 1860?",
@@ -128,8 +134,10 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9876200456194396,
     "query_id": "Q011",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What were David Livingstone's views on receiving payment for his missionary work in Africa?",
@@ -140,8 +148,10 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9826756733729677,
     "query_id": "Q012",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "Who was the recipient of a letter from an acquaintance in Dumfries discussing the behavior of a mutual acquaintance, Mr. Samuel Clark, around 1799?",
@@ -164,8 +174,10 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9863316130680271,
     "query_id": "Q014",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "Who were the justices present at Basil Cochrane's proceedings in 1787?",
@@ -176,8 +188,10 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9839155790755523,
     "query_id": "Q015",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "Who led the detachment against the troublesome Rajah in the Western Ghats in 1802?",
@@ -188,8 +202,10 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9825817906769014,
     "query_id": "Q016",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "Who did Colonel James Halkett's father dine with on Waterloo Day in 1851?",
@@ -200,8 +216,10 @@
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.9576146186471867,
     "query_id": "Q017",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What honors and decorations did Sir John Kirk receive during his career?",
@@ -212,20 +230,10 @@
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.9792813541144829,
     "query_id": "Q018",
-    "verified_by": [],
-    "status": "generated"
-  },
-  {
-    "query": "Who was appointed to investigate complaints against V. O. in Handal?",
-    "query_type": "factoid",
-    "expected_answer": "unana",
-    "difficulty": "medium",
-    "doc_id": "20656593",
-    "ocr_quality_tier": "medium",
-    "ocr_quality": 0.9604621120220102,
-    "query_id": "Q019",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "Who were the British military officers stationed in the region of Akora in January 1852?",
@@ -236,8 +244,10 @@
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.9649414799836533,
     "query_id": "Q020",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What were the geographical features and challenges encountered by Colonel James Halkett during his journey along the Indus River in July 1852?",
@@ -248,8 +258,10 @@
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.9680146683340726,
     "query_id": "Q021",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What were the consequences for East India Company officers who returned to England to seek redress without following proper procedures in the late 18th century?",
@@ -260,8 +272,10 @@
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.9733300002438312,
     "query_id": "Q022",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What were the concerns of the British East India Company regarding the situation in Bengal in 1766-1767?",
@@ -272,8 +286,10 @@
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.9786476829584323,
     "query_id": "Q023",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What was the name of the notebook labelled 'No 3' written by James Stuart in 1775?",
@@ -284,8 +300,10 @@
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.962168004803087,
     "query_id": "Q024",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What was the nature of the correspondence between James Stuart and Hyder Ali in 1774-1775?",
@@ -296,8 +314,10 @@
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.9785434422578536,
     "query_id": "Q025",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "Who was the British officer who kept a journal of his hunting expeditions in India between 1852 and 1854?",
@@ -308,8 +328,10 @@
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.9792207641259996,
     "query_id": "Q026",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What was the average annual receipt from the Vizier Asaf-ud-Daula to the Residents at his court from 1786 to 1788?",
@@ -320,8 +342,10 @@
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.9780135111278778,
     "query_id": "Q027",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What was the outcome of the charges brought against Mr. Turing by Ball Ristnat in 1786?",
@@ -332,8 +356,10 @@
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.975348923636987,
     "query_id": "Q028",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What was the total amount of rice delivered at Pulicat in 1782 and 1783, and how much of it was taken for the use of the garrison?",
@@ -344,8 +370,10 @@
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.9743147294915074,
     "query_id": "Q029",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What significant events occurred in Trincomalee in September 1782?",
@@ -356,8 +384,10 @@
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.9612859095535585,
     "query_id": "Q030",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "Who were the British officers attached to the Topographical Brigades for the verification of plans for the border delimitation between Russia and the Ottoman Empire in the 19th century?",
@@ -368,8 +398,10 @@
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.9564073994633944,
     "query_id": "Q031",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "Who was Colonel James Halkett's host when he dined in Simla in April 1853?",
@@ -380,8 +412,10 @@
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.9605919537278311,
     "query_id": "Q032",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "Who was David Livingstone's companion during his expedition in June 1860?",
@@ -392,8 +426,10 @@
     "ocr_quality_tier": "low",
     "ocr_quality": 0.9252682392904354,
     "query_id": "Q033",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What types of plant species did Dr. John Kirk encounter during the Zambesi Expedition in 1858-1859?",
@@ -404,8 +440,10 @@
     "ocr_quality_tier": "low",
     "ocr_quality": 0.9294753547260424,
     "query_id": "Q034",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What were David Livingstone's observations about the villages he encountered during his 1860 expedition in Africa?",
@@ -416,8 +454,10 @@
     "ocr_quality_tier": "low",
     "ocr_quality": 0.9433790478594093,
     "query_id": "Q035",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What were David Livingstone's experiences with the Bakrains and missionaries during his travels in Africa?",
@@ -428,8 +468,10 @@
     "ocr_quality_tier": "low",
     "ocr_quality": 0.9424814212985073,
     "query_id": "Q036",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What was the date of the letter written by Livingstone, as mentioned in his diary?",
@@ -440,8 +482,10 @@
     "ocr_quality_tier": "low",
     "ocr_quality": 0.9461179187740725,
     "query_id": "Q037",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What were the receipts, expenses, and remains of stores for the Field Artillery in the Lines at Fort St George during the month of September 1782?",
@@ -452,8 +496,10 @@
     "ocr_quality_tier": "low",
     "ocr_quality": 0.8728540472699962,
     "query_id": "Q038",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What was the unusual gift presented to the Royal Engineers' Mess at Chatham by Colonel C. G. Gordon?",
@@ -464,8 +510,10 @@
     "ocr_quality_tier": "low",
     "ocr_quality": 0.9404603147049514,
     "query_id": "Q039",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What household expenses did General Stuart incur in 1784?",
@@ -476,8 +524,10 @@
     "ocr_quality_tier": "low",
     "ocr_quality": 0.8833516176083773,
     "query_id": "Q040",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What provisions did Colonel George Cadell make for his son George in the event of his death?",
@@ -488,8 +538,10 @@
     "ocr_quality_tier": "low",
     "ocr_quality": 0.9496412485129877,
     "query_id": "Q041",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "Who was the Governor-General of India during the period 1842-1847?",
@@ -500,8 +552,10 @@
     "ocr_quality_tier": "low",
     "ocr_quality": 0.9315454184811773,
     "query_id": "Q042",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What biblical lessons were prescribed for Sundays and holidays in 1862?",
@@ -512,8 +566,10 @@
     "ocr_quality_tier": "low",
     "ocr_quality": 0.9024028169834231,
     "query_id": "Q043",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What is the earliest recorded date in the Holt Collection of documents related to Africa and New Imperialism?",
@@ -524,8 +580,10 @@
     "ocr_quality_tier": "low",
     "ocr_quality": 0.9474050091979517,
     "query_id": "Q044",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "Where did David Livingstone stay in April 1859?",
@@ -536,8 +594,10 @@
     "ocr_quality_tier": "low",
     "ocr_quality": 0.9352053234755555,
     "query_id": "Q045",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What was the route taken by Captain John Hanning Speke during his 1858 journey to Lake Victoria Nyanza and Lake Tanganyika?",
@@ -548,20 +608,10 @@
     "ocr_quality_tier": "low",
     "ocr_quality": 0.9016425012734975,
     "query_id": "Q046",
-    "verified_by": [],
-    "status": "generated"
-  },
-  {
-    "query": "What organization or group was involved in Central Africa missions during the late 19th and early 20th centuries?",
-    "query_type": "factoid",
-    "expected_answer": "Likely a Christian missionary organization, exact name not specified in the provided text excerpt",
-    "difficulty": "medium",
-    "doc_id": "20504140",
-    "ocr_quality_tier": "low",
-    "ocr_quality": 0.9345271343105559,
-    "query_id": "Q047",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What was the origin of the throne presented to the Royal Engineers' Mess at Chatham by Colonel C. G. Gordon?",
@@ -572,8 +622,10 @@
     "ocr_quality_tier": "low",
     "ocr_quality": 0.939484876726256,
     "query_id": "Q048",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "What was the basis for the settlement of the sovereignty of the Carnatick upon the Nabob and his heirs in the mid-18th century?",
@@ -584,8 +636,10 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9808494398351532,
     "query_id": "Q049",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   },
   {
     "query": "Who were the British officials corresponding with General Stuart in India in 1781?",
@@ -596,7 +650,9 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9824811029059719,
     "query_id": "Q050",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "Jakub"
+    ],
+    "status": "partially_verified"
   }
 ]
