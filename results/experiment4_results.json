@@ -150,11 +150,11 @@
           "count": 15
         },
         {
-          "term": "sennar",
+          "term": "massawah",
           "count": 13
         },
         {
-          "term": "massawah",
+          "term": "sennar",
           "count": 13
         },
         {
@@ -174,11 +174,11 @@
           "count": 11
         },
         {
-          "term": "k's",
+          "term": "kawah",
           "count": 10
         },
         {
-          "term": "kawah",
+          "term": "k's",
           "count": 10
         },
         {
@@ -186,11 +186,11 @@
           "count": 10
         },
         {
-          "term": "allulah",
+          "term": "jihadiyah",
           "count": 10
         },
         {
-          "term": "jihadiyah",
+          "term": "allulah",
           "count": 10
         },
         {
@@ -326,11 +326,11 @@
           "count": 28
         },
         {
-          "term": "andris",
+          "term": "hongkong",
           "count": 25
         },
         {
-          "term": "hongkong",
+          "term": "andris",
           "count": 25
         },
         {
@@ -338,7 +338,7 @@
           "count": 24
         },
         {
-          "term": "peshawur",
+          "term": "baharusse",
           "count": 24
         },
         {
@@ -346,7 +346,7 @@
           "count": 24
         },
         {
-          "term": "baharusse",
+          "term": "peshawur",
           "count": 24
         },
         {
@@ -366,11 +366,11 @@
           "count": 20
         },
         {
-          "term": "whitney",
+          "term": "poolo",
           "count": 20
         },
         {
-          "term": "medusa",
+          "term": "whitney",
           "count": 20
         }
       ],
@@ -384,11 +384,11 @@
           "count": 259
         },
         {
-          "term": "waganda",
+          "term": "baraka",
           "count": 234
         },
         {
-          "term": "baraka",
+          "term": "waganda",
           "count": 234
         },
         {
@@ -420,19 +420,19 @@
           "count": 83
         },
         {
-          "term": "karag",
-          "count": 82
-        },
-        {
           "term": "ugogo",
           "count": 82
         },
         {
-          "term": "gondokoro",
-          "count": 80
+          "term": "karag",
+          "count": 82
         },
         {
           "term": "hongo",
+          "count": 80
+        },
+        {
+          "term": "gondokoro",
           "count": 80
         },
         {
@@ -478,11 +478,11 @@
           "count": 22
         },
         {
-          "term": "kargil",
+          "term": "risoe",
           "count": 21
         },
         {
-          "term": "risoe",
+          "term": "kargil",
           "count": 21
         },
         {
@@ -490,11 +490,11 @@
           "count": 21
         },
         {
-          "term": "deosai",
+          "term": "pullman",
           "count": 20
         },
         {
-          "term": "pullman",
+          "term": "deosai",
           "count": 20
         },
         {

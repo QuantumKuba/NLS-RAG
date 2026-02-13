@@ -345,17 +345,51 @@ def verify_queries(query_dir: Path):
             notes = input("  Reason for rejection: ").strip()
             q.setdefault("reviewer_notes", []).append(f"{reviewer_name}: {notes}")
     
+    # Verify RAG questions
+    print(f"\n--- RAG Questions ({len(data['rag_questions'])}) ---\n")
+    for q in data["rag_questions"]:
+        if reviewer_name in q.get("verified_by", []):
+            continue
+        
+        print(f"\n[{q['question_id']}] OCR Tier: {q.get('ocr_quality_tier', '?')}")
+        print(f"  Question: {q['question']}")
+        print(f"  Answer: {q.get('answer', 'N/A')}")
+        print(f"  Evidence: {q.get('evidence', 'N/A')}")
+        print(f"  Type: {q.get('answer_type', '?')} | Difficulty: {q.get('difficulty', '?')}")
+        if q.get("notes"):
+            print(f"  Notes: {q['notes']}")
+        
+        action = input("  (a)ccept / (r)eject / (s)kip / (q)uit: ").strip().lower()
+        
+        if action == "q":
+            break
+        elif action == "s":
+            continue
+        elif action == "a":
+            q["verified_by"].append(reviewer_name)
+            q["status"] = "verified" if len(q["verified_by"]) >= 2 else "partially_verified"
+        elif action == "r":
+            q["verified_by"].append(reviewer_name)
+            q["status"] = "rejected"
+            notes = input("  Reason for rejection: ").strip()
+            q.setdefault("reviewer_notes", []).append(f"{reviewer_name}: {notes}")
+    
     # Save updated template
     with open(template_path, "w") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
     
     # Update individual files
     approved_queries = [q for q in data["retrieval_queries"] if q["status"] != "rejected"]
-    save_queries(approved_queries, data["rag_questions"], query_dir)
+    approved_rag = [q for q in data["rag_questions"] if q["status"] != "rejected"]
+    save_queries(approved_queries, approved_rag, query_dir)
     
-    verified = sum(1 for q in data["retrieval_queries"] if "verified" in q.get("status", ""))
-    rejected = sum(1 for q in data["retrieval_queries"] if q.get("status") == "rejected")
-    print(f"\nVerification summary: {verified} verified, {rejected} rejected")
+    ret_verified = sum(1 for q in data["retrieval_queries"] if "verified" in q.get("status", ""))
+    ret_rejected = sum(1 for q in data["retrieval_queries"] if q.get("status") == "rejected")
+    rag_verified = sum(1 for q in data["rag_questions"] if "verified" in q.get("status", ""))
+    rag_rejected = sum(1 for q in data["rag_questions"] if q.get("status") == "rejected")
+    print(f"\nVerification summary:")
+    print(f"  Retrieval: {ret_verified} verified, {ret_rejected} rejected")
+    print(f"  RAG: {rag_verified} verified, {rag_rejected} rejected")
 
 
 def main():
