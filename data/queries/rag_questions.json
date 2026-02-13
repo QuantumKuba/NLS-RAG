@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "question": "When did Governor Maclean leave the Gold Coast on leave of absence?",
     "answer": "1831",
     "evidence": "When Governor Madean left the Gold Coast in 183le on leave of absence",
@@ -406,6 +407,8 @@
     "status": "generated"
   },
   {
+=======
+>>>>>>> main
     "question": "Who is the author of the article 'Fetishism in Congo land'?",
     "answer": "E. J. Glave",
     "evidence": "BY E. J. GLAVE, ONE OF STANLEYS PIONEER OFFICERS.",
@@ -415,7 +418,11 @@
     "doc_id": "21910988",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9968622403603979,
+<<<<<<< HEAD
     "question_id": "RAG030",
+=======
+    "question_id": "RAG001",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   },
@@ -429,7 +436,11 @@
     "doc_id": "22041071",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.996616487796959,
+<<<<<<< HEAD
     "question_id": "RAG031",
+=======
+    "question_id": "RAG002",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   },
@@ -443,7 +454,11 @@
     "doc_id": "21955936",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9956544139063765,
+<<<<<<< HEAD
     "question_id": "RAG032",
+=======
+    "question_id": "RAG003",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   },
@@ -457,7 +472,11 @@
     "doc_id": "22038769",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9956273955251054,
+<<<<<<< HEAD
     "question_id": "RAG033",
+=======
+    "question_id": "RAG004",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   },
@@ -471,7 +490,11 @@
     "doc_id": "21955998",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9951577641529998,
+<<<<<<< HEAD
     "question_id": "RAG034",
+=======
+    "question_id": "RAG005",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   },
@@ -485,7 +508,11 @@
     "doc_id": "21929504",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.995084816577275,
+<<<<<<< HEAD
     "question_id": "RAG035",
+=======
+    "question_id": "RAG006",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   },
@@ -499,7 +526,11 @@
     "doc_id": "19546066",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9932189323402187,
+<<<<<<< HEAD
     "question_id": "RAG036",
+=======
+    "question_id": "RAG007",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   },
@@ -513,7 +544,11 @@
     "doc_id": "22003341",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9930899777316535,
+<<<<<<< HEAD
     "question_id": "RAG037",
+=======
+    "question_id": "RAG008",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   },
@@ -527,7 +562,25 @@
     "doc_id": "22001310",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9928986613483788,
+<<<<<<< HEAD
     "question_id": "RAG038",
+=======
+    "question_id": "RAG009",
+    "verified_by": [],
+    "status": "generated"
+  },
+  {
+    "question": "When was Robert Moffat's last letter to the Directors dated?",
+    "answer": "25th Oct",
+    "evidence": "My last was dates 25th Oct and sent to the Colong by Br Edwarde in Now",
+    "answer_type": "date",
+    "difficulty": "easy",
+    "notes": "The text appears to be a scanned document with some OCR errors, but the date is clearly readable.",
+    "doc_id": "20516084",
+    "ocr_quality_tier": "high",
+    "ocr_quality": 0.9928160532444463,
+    "question_id": "RAG010",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   },
@@ -541,7 +594,11 @@
     "doc_id": "21727642",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9926649518698281,
+<<<<<<< HEAD
     "question_id": "RAG039",
+=======
+    "question_id": "RAG011",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   },
@@ -555,7 +612,11 @@
     "doc_id": "19543381",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9926111338726984,
+<<<<<<< HEAD
     "question_id": "RAG040",
+=======
+    "question_id": "RAG012",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   },
@@ -569,7 +630,11 @@
     "doc_id": "22033001",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9924832409981296,
+<<<<<<< HEAD
     "question_id": "RAG041",
+=======
+    "question_id": "RAG013",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   },
@@ -583,7 +648,11 @@
     "doc_id": "21620136",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.992146420069524,
+<<<<<<< HEAD
     "question_id": "RAG042",
+=======
+    "question_id": "RAG014",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   },
@@ -597,7 +666,11 @@
     "doc_id": "21607061",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9920650024412443,
+<<<<<<< HEAD
     "question_id": "RAG043",
+=======
+    "question_id": "RAG015",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   },
@@ -611,7 +684,11 @@
     "doc_id": "21699918",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9918927485193499,
+<<<<<<< HEAD
     "question_id": "RAG044",
+=======
+    "question_id": "RAG016",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   },
@@ -625,7 +702,11 @@
     "doc_id": "21911220",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9918021070274767,
+<<<<<<< HEAD
     "question_id": "RAG045",
+=======
+    "question_id": "RAG017",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   },
@@ -639,7 +720,11 @@
     "doc_id": "20579602",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9916948492754925,
+<<<<<<< HEAD
     "question_id": "RAG046",
+=======
+    "question_id": "RAG018",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   },
@@ -653,7 +738,11 @@
     "doc_id": "20503323",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9912545209810856,
+<<<<<<< HEAD
     "question_id": "RAG047",
+=======
+    "question_id": "RAG019",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   },
@@ -667,7 +756,11 @@
     "doc_id": "21911115",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.99122355959743,
+<<<<<<< HEAD
     "question_id": "RAG048",
+=======
+    "question_id": "RAG020",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   },
@@ -681,7 +774,11 @@
     "doc_id": "19543915",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9912218465003885,
+<<<<<<< HEAD
     "question_id": "RAG049",
+=======
+    "question_id": "RAG021",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   },
@@ -695,7 +792,11 @@
     "doc_id": "19524071",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9910415617925129,
+<<<<<<< HEAD
     "question_id": "RAG050",
+=======
+    "question_id": "RAG022",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   },
@@ -709,7 +810,11 @@
     "doc_id": "21929652",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.990998531189801,
+<<<<<<< HEAD
     "question_id": "RAG051",
+=======
+    "question_id": "RAG023",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   },
@@ -723,7 +828,11 @@
     "doc_id": "21926519",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9908191079263511,
+<<<<<<< HEAD
     "question_id": "RAG052",
+=======
+    "question_id": "RAG024",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   },
@@ -737,7 +846,11 @@
     "doc_id": "22039048",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9908190176837361,
+<<<<<<< HEAD
     "question_id": "RAG053",
+=======
+    "question_id": "RAG025",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   },
@@ -751,7 +864,11 @@
     "doc_id": "22079911",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9908034907476281,
+<<<<<<< HEAD
     "question_id": "RAG054",
+=======
+    "question_id": "RAG026",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   },
@@ -765,7 +882,11 @@
     "doc_id": "21730393",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9906176781253458,
+<<<<<<< HEAD
     "question_id": "RAG055",
+=======
+    "question_id": "RAG027",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   },
@@ -779,7 +900,11 @@
     "doc_id": "21607240",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9903354424015491,
+<<<<<<< HEAD
     "question_id": "RAG056",
+=======
+    "question_id": "RAG028",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   },
@@ -793,7 +918,11 @@
     "doc_id": "20581677",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9902669635020099,
+<<<<<<< HEAD
     "question_id": "RAG057",
+=======
+    "question_id": "RAG029",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   },
@@ -807,7 +936,11 @@
     "doc_id": "21698406",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9902655206098466,
+<<<<<<< HEAD
     "question_id": "RAG058",
+=======
+    "question_id": "RAG030",
+>>>>>>> main
     "verified_by": [],
     "status": "generated"
   }

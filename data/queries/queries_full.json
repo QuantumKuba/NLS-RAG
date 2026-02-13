@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "query": "What was the content of Major General Stuart's petition to the King dated July 26, 1785?",
     "query_type": "factoid",
     "expected_answer": "An extract from the petition is included in the document, describing Stuart's response to charges made against him by the President of the Committee at Madras.",
@@ -674,6 +675,8 @@
     "status": "verified"
   },
   {
+=======
+>>>>>>> main
     "query": "What were the working conditions and challenges faced by laborers in Ngamiland during the late 19th century?",
     "query_type": "topical",
     "expected_answer": "Laborers in Ngamiland faced challenges such as disease, death, and monotony, with the writer describing the experience as 'depressing' and 'difficult'.",
@@ -681,7 +684,11 @@
     "doc_id": "21728848",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9868516337577242,
+<<<<<<< HEAD
     "query_id": "Q048",
+=======
+    "query_id": "Q002",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -695,7 +702,11 @@
     "doc_id": "20537444",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9829365489953893,
+<<<<<<< HEAD
     "query_id": "Q049",
+=======
+    "query_id": "Q003",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -709,7 +720,11 @@
     "doc_id": "21607987",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9871866938112515,
+<<<<<<< HEAD
     "query_id": "Q050",
+=======
+    "query_id": "Q004",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -723,7 +738,11 @@
     "doc_id": "20584523",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9837541231999916,
+<<<<<<< HEAD
     "query_id": "Q051",
+=======
+    "query_id": "Q005",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -737,7 +756,11 @@
     "doc_id": "20655799",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9848341422509607,
+<<<<<<< HEAD
     "query_id": "Q052",
+=======
+    "query_id": "Q007",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -751,7 +774,11 @@
     "doc_id": "20516469",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9875077905346913,
+<<<<<<< HEAD
     "query_id": "Q053",
+=======
+    "query_id": "Q008",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -765,7 +792,11 @@
     "doc_id": "21607631",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9865348666041803,
+<<<<<<< HEAD
     "query_id": "Q054",
+=======
+    "query_id": "Q009",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -779,7 +810,11 @@
     "doc_id": "21607415",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9866995566031497,
+<<<<<<< HEAD
     "query_id": "Q055",
+=======
+    "query_id": "Q010",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -793,7 +828,11 @@
     "doc_id": "19531088",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9880468553590178,
+<<<<<<< HEAD
     "query_id": "Q056",
+=======
+    "query_id": "Q011",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -807,7 +846,11 @@
     "doc_id": "22145389",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9808112746874911,
+<<<<<<< HEAD
     "query_id": "Q057",
+=======
+    "query_id": "Q012",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -821,7 +864,11 @@
     "doc_id": "20373661",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9869420286076536,
+<<<<<<< HEAD
     "query_id": "Q058",
+=======
+    "query_id": "Q014",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -835,7 +882,11 @@
     "doc_id": "20509521",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9804833784957568,
+<<<<<<< HEAD
     "query_id": "Q059",
+=======
+    "query_id": "Q015",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -849,7 +900,11 @@
     "doc_id": "20545132",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9839821722219424,
+<<<<<<< HEAD
     "query_id": "Q060",
+=======
+    "query_id": "Q016",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -863,7 +918,11 @@
     "doc_id": "20514312",
     "ocr_quality_tier": "low",
     "ocr_quality": 0.9098232340564827,
+<<<<<<< HEAD
     "query_id": "Q061",
+=======
+    "query_id": "Q017",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -877,7 +936,11 @@
     "doc_id": "21620153",
     "ocr_quality_tier": "low",
     "ocr_quality": 0.9167501414349162,
+<<<<<<< HEAD
     "query_id": "Q062",
+=======
+    "query_id": "Q019",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -891,7 +954,11 @@
     "doc_id": "1041389",
     "ocr_quality_tier": "low",
     "ocr_quality": 0.9038678091415052,
+<<<<<<< HEAD
     "query_id": "Q063",
+=======
+    "query_id": "Q020",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -905,7 +972,11 @@
     "doc_id": "21998894",
     "ocr_quality_tier": "low",
     "ocr_quality": 0.9249427441924667,
+<<<<<<< HEAD
     "query_id": "Q064",
+=======
+    "query_id": "Q021",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -919,7 +990,11 @@
     "doc_id": "22079461",
     "ocr_quality_tier": "low",
     "ocr_quality": 0.9417833827386448,
+<<<<<<< HEAD
     "query_id": "Q065",
+=======
+    "query_id": "Q022",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -933,7 +1008,11 @@
     "doc_id": "22000776",
     "ocr_quality_tier": "low",
     "ocr_quality": 0.9277434942403542,
+<<<<<<< HEAD
     "query_id": "Q066",
+=======
+    "query_id": "Q023",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -947,7 +1026,11 @@
     "doc_id": "22060085",
     "ocr_quality_tier": "low",
     "ocr_quality": 0.7554542270298925,
+<<<<<<< HEAD
     "query_id": "Q067",
+=======
+    "query_id": "Q024",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -961,7 +1044,11 @@
     "doc_id": "21611194",
     "ocr_quality_tier": "low",
     "ocr_quality": 0.8253711885968064,
+<<<<<<< HEAD
     "query_id": "Q068",
+=======
+    "query_id": "Q025",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -975,7 +1062,11 @@
     "doc_id": "22149318",
     "ocr_quality_tier": "low",
     "ocr_quality": 0.9451803232497367,
+<<<<<<< HEAD
     "query_id": "Q069",
+=======
+    "query_id": "Q026",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -989,7 +1080,11 @@
     "doc_id": "19545824",
     "ocr_quality_tier": "low",
     "ocr_quality": 0.7529726495661988,
+<<<<<<< HEAD
     "query_id": "Q070",
+=======
+    "query_id": "Q027",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -1003,7 +1098,11 @@
     "doc_id": "22028871",
     "ocr_quality_tier": "low",
     "ocr_quality": 0.9256747204256788,
+<<<<<<< HEAD
     "query_id": "Q071",
+=======
+    "query_id": "Q028",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -1017,7 +1116,11 @@
     "doc_id": "17401408",
     "ocr_quality_tier": "low",
     "ocr_quality": 0.8705689741257813,
+<<<<<<< HEAD
     "query_id": "Q072",
+=======
+    "query_id": "Q030",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -1031,7 +1134,11 @@
     "doc_id": "20504782",
     "ocr_quality_tier": "low",
     "ocr_quality": 0.9267402558532243,
+<<<<<<< HEAD
     "query_id": "Q073",
+=======
+    "query_id": "Q031",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -1045,7 +1152,11 @@
     "doc_id": "20544117",
     "ocr_quality_tier": "low",
     "ocr_quality": 0.9231563945527521,
+<<<<<<< HEAD
     "query_id": "Q074",
+=======
+    "query_id": "Q032",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -1059,7 +1170,11 @@
     "doc_id": "20539901",
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.9788194643624977,
+<<<<<<< HEAD
     "query_id": "Q075",
+=======
+    "query_id": "Q033",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -1073,7 +1188,11 @@
     "doc_id": "19592658",
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.9708712619899282,
+<<<<<<< HEAD
     "query_id": "Q076",
+=======
+    "query_id": "Q034",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -1087,7 +1206,11 @@
     "doc_id": "20533209",
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.9769402965650854,
+<<<<<<< HEAD
     "query_id": "Q077",
+=======
+    "query_id": "Q035",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -1101,7 +1224,11 @@
     "doc_id": "22097871",
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.9764957036913153,
+<<<<<<< HEAD
     "query_id": "Q078",
+=======
+    "query_id": "Q036",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -1115,7 +1242,11 @@
     "doc_id": "19583464",
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.9583297513786827,
+<<<<<<< HEAD
     "query_id": "Q079",
+=======
+    "query_id": "Q037",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -1129,7 +1260,11 @@
     "doc_id": "22089471",
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.9738733223146998,
+<<<<<<< HEAD
     "query_id": "Q080",
+=======
+    "query_id": "Q038",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -1143,7 +1278,11 @@
     "doc_id": "20539255",
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.9582875744153124,
+<<<<<<< HEAD
     "query_id": "Q081",
+=======
+    "query_id": "Q039",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -1157,7 +1296,11 @@
     "doc_id": "22046287",
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.964795374016152,
+<<<<<<< HEAD
     "query_id": "Q082",
+=======
+    "query_id": "Q040",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -1171,7 +1314,11 @@
     "doc_id": "20544045",
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.9537453954482364,
+<<<<<<< HEAD
     "query_id": "Q083",
+=======
+    "query_id": "Q041",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -1185,7 +1332,11 @@
     "doc_id": "20544245",
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.9697322528707153,
+<<<<<<< HEAD
     "query_id": "Q084",
+=======
+    "query_id": "Q042",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -1199,7 +1350,11 @@
     "doc_id": "21607311",
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.9651447809598471,
+<<<<<<< HEAD
     "query_id": "Q085",
+=======
+    "query_id": "Q043",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -1213,7 +1368,11 @@
     "doc_id": "22087874",
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.9710346187687777,
+<<<<<<< HEAD
     "query_id": "Q086",
+=======
+    "query_id": "Q044",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -1227,7 +1386,11 @@
     "doc_id": "22094862",
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.9606744579254569,
+<<<<<<< HEAD
     "query_id": "Q087",
+=======
+    "query_id": "Q045",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -1241,7 +1404,11 @@
     "doc_id": "20546672",
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.9779199313303408,
+<<<<<<< HEAD
     "query_id": "Q088",
+=======
+    "query_id": "Q046",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -1255,7 +1422,11 @@
     "doc_id": "22087614",
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.965275295036988,
+<<<<<<< HEAD
     "query_id": "Q089",
+=======
+    "query_id": "Q047",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -1269,7 +1440,11 @@
     "doc_id": "22079381",
     "ocr_quality_tier": "medium",
     "ocr_quality": 0.9627374590404607,
+<<<<<<< HEAD
     "query_id": "Q090",
+=======
+    "query_id": "Q048",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -1283,7 +1458,11 @@
     "doc_id": "20538890",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9817286132460905,
+<<<<<<< HEAD
     "query_id": "Q091",
+=======
+    "query_id": "Q049",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
@@ -1297,7 +1476,11 @@
     "doc_id": "22039048",
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9908190176837361,
+<<<<<<< HEAD
     "query_id": "Q092",
+=======
+    "query_id": "Q050",
+>>>>>>> main
     "verified_by": [
       "yash"
     ],
