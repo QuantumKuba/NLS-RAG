@@ -1320,9 +1320,10 @@
       "ocr_quality": 0.9956544139063765,
       "question_id": "RAG001",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "How many houses were counted in the first part of the Matabele settlement?",
@@ -1336,9 +1337,10 @@
       "ocr_quality": 0.993659704348822,
       "question_id": "RAG003",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "When did the voyage leave Port Glasgow?",
@@ -1352,9 +1354,10 @@
       "ocr_quality": 0.9931785027642632,
       "question_id": "RAG004",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "When was Robert Moffat's last letter to the Directors dated?",
@@ -1368,9 +1371,10 @@
       "ocr_quality": 0.9928160532444463,
       "question_id": "RAG005",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "What latitude did the writer find the Nyassa lake at?",
@@ -1384,9 +1388,10 @@
       "ocr_quality": 0.9926111338726984,
       "question_id": "RAG006",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "When did Henry Arbuthnot write a letter to his sister from the ship at sea?",
@@ -1400,9 +1405,10 @@
       "ocr_quality": 0.992385745085791,
       "question_id": "RAG007",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "When did Stort William receive a letter from the correspondent?",
@@ -1416,9 +1422,10 @@
       "ocr_quality": 0.9911072323127162,
       "question_id": "RAG008",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "When did Sir Hugh McPherson join Bihar and Orissa as an Assistant Magistrate?",
@@ -1432,9 +1439,10 @@
       "ocr_quality": 0.9909893587267657,
       "question_id": "RAG009",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "Who did Major Douglas Cunninghame Graham mention as a ruler he had met?",
@@ -1448,9 +1456,10 @@
       "ocr_quality": 0.9908490521926354,
       "question_id": "RAG010",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "When was the private letter written by Henry Dundas to Lord Cornwallis?",
@@ -1464,9 +1473,10 @@
       "ocr_quality": 0.9905221393531275,
       "question_id": "RAG011",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "When did Basil Cochrane deliver his defence at the General Sessions of Oyer of Terminer and Goal in Delivery?",
@@ -1480,9 +1490,10 @@
       "ocr_quality": 0.9900274170616344,
       "question_id": "RAG013",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "When did Livingstone first revisit the scenes of civilization after eleven years?",
@@ -1496,9 +1507,10 @@
       "ocr_quality": 0.9899326338052294,
       "question_id": "RAG014",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "What was the date of Reverend John Mackenzie's letter describing his journey to the top of Table Mountain?",
@@ -1512,9 +1524,10 @@
       "ocr_quality": 0.9896391426830524,
       "question_id": "RAG015",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "When did the writer expect to leave for Europe?",
@@ -1528,9 +1541,10 @@
       "ocr_quality": 0.9892537082844782,
       "question_id": "RAG017",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "In what year did George Anderson's friend, who fell down dead in a lather, die?",
@@ -1544,9 +1558,10 @@
       "ocr_quality": 0.9891624645643239,
       "question_id": "RAG018",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "When did Lieutenant General Sir Byne Coote write to the Select Committee?",
@@ -1560,9 +1575,10 @@
       "ocr_quality": 0.9889114426608878,
       "question_id": "RAG019",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "When did the writer receive the Company's letter?",
@@ -1576,9 +1592,10 @@
       "ocr_quality": 0.9888390316097699,
       "question_id": "RAG022",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "Where was David Livingstone when he wrote the first letter to his daughter Agnes?",
@@ -1592,9 +1609,10 @@
       "ocr_quality": 0.9883499172628615,
       "question_id": "RAG023",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "On what date was Sir Hugh McPherson invited to broadcast a talk to the Scottish schools on 'A Journey through Behar'?",
@@ -1608,9 +1626,10 @@
       "ocr_quality": 0.9882985694462589,
       "question_id": "RAG024",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "When was Lieut Colonel Geils appointed a Brevet Major of Engineers?",
@@ -1624,9 +1643,10 @@
       "ocr_quality": 0.9877915011620552,
       "question_id": "RAG027",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "When did Cornwallis dispatch a letter to Dundas regarding the best mode of new modelling the Army in India?",
@@ -1640,25 +1660,10 @@
       "ocr_quality": 0.98773606075266,
       "question_id": "RAG028",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
-    },
-    {
-      "question": "What is the date of the letter from Gulton Hill to Commodore George Johnstone?",
-      "answer": "Apr. 1782",
-      "evidence": "1 2. Apr. 1782",
-      "answer_type": "date",
-      "difficulty": "easy",
-      "notes": "The OCR quality appears to be good, with no apparent errors in the date.",
-      "doc_id": "22364081",
-      "ocr_quality_tier": "high",
-      "ocr_quality": 0.9877036131323776,
-      "question_id": "RAG029",
-      "verified_by": [
-        "Jakub"
-      ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "Who is the author of the article 'Fetishism in Congo land'?",
@@ -1672,9 +1677,10 @@
       "ocr_quality": 0.9968622403603979,
       "question_id": "RAG030",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "Who is mentioned as not lending his name to a theory about the decay of races?",
@@ -1688,9 +1694,10 @@
       "ocr_quality": 0.996616487796959,
       "question_id": "RAG031",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "When did Governor Maclean leave the Gold Coast?",
@@ -1704,9 +1711,10 @@
       "ocr_quality": 0.9956544139063765,
       "question_id": "RAG032",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "Who delivered the lecture on the future of Africa at the Society of Arts?",
@@ -1720,9 +1728,10 @@
       "ocr_quality": 0.9956273955251054,
       "question_id": "RAG033",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "When did B. Erickstians write the preface to his manuscript?",
@@ -1736,9 +1745,10 @@
       "ocr_quality": 0.9951577641529998,
       "question_id": "RAG034",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "When did the trial of William Fortunatus John, Phoebe John, John Williams, and Kezia Williams come to a close?",
@@ -1752,9 +1762,10 @@
       "ocr_quality": 0.995084816577275,
       "question_id": "RAG035",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "When did the party arrive at the island opposite the village of Chilisa?",
@@ -1768,9 +1779,10 @@
       "ocr_quality": 0.9932189323402187,
       "question_id": "RAG036",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "When did the Opium War break out?",
@@ -1784,9 +1796,10 @@
       "ocr_quality": 0.9930899777316535,
       "question_id": "RAG037",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "In what year was the journal written by Marcus R. P. Dorman?",
@@ -1800,9 +1813,10 @@
       "ocr_quality": 0.9928986613483788,
       "question_id": "RAG038",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "What was the latitude of the southern extremity of Lake Nyassa when the author arrived?",
@@ -1816,9 +1830,10 @@
       "ocr_quality": 0.9926111338726984,
       "question_id": "RAG040",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "Who is the publisher of the story 'Faithful Shirley; or, A Royal Queen of Hearts'?",
@@ -1832,9 +1847,10 @@
       "ocr_quality": 0.9924832409981296,
       "question_id": "RAG041",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "When was the resolution of the House of Representatives calling for information about the Congo Conference at Berlin dated?",
@@ -1848,9 +1864,10 @@
       "ocr_quality": 0.992146420069524,
       "question_id": "RAG042",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "When was the lecture 'The Status of the Uitlander' delivered?",
@@ -1864,9 +1881,10 @@
       "ocr_quality": 0.9920650024412443,
       "question_id": "RAG043",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "Who were the first Europeans to visit Uganda?",
@@ -1880,9 +1898,10 @@
       "ocr_quality": 0.9918927485193499,
       "question_id": "RAG044",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "When was Wissmann scheduled to start for Zanzibar?",
@@ -1896,9 +1915,10 @@
       "ocr_quality": 0.9918021070274767,
       "question_id": "RAG045",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "When did Gerald Waller send a letter to Dr. Badier regarding the Gangibou Concession?",
@@ -1912,9 +1932,10 @@
       "ocr_quality": 0.9916948492754925,
       "question_id": "RAG046",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "When did Mackenzie and Hepburn outline a plan for a chain of stations from Kurugan to Tanzanyika?",
@@ -1928,9 +1949,10 @@
       "ocr_quality": 0.9912545209810856,
       "question_id": "RAG047",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "When was Lord Delamere and Mr. Baillie suspended from duties on the Legislative Council?",
@@ -1944,9 +1966,10 @@
       "ocr_quality": 0.99122355959743,
       "question_id": "RAG048",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "Where was the writer of the letter when they wrote to their mother on February 12th?",
@@ -1960,9 +1983,10 @@
       "ocr_quality": 0.9910415617925129,
       "question_id": "RAG050",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "Who is the author of the book 'Cape Coast Castle: or, the Adventures of Sir Thomas Fitzosborne'?",
@@ -1992,9 +2016,10 @@
       "ocr_quality": 0.9908191079263511,
       "question_id": "RAG052",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "When did David Livingstone's journeys in Central Africa take place?",
@@ -2025,9 +2050,10 @@
       "ocr_quality": 0.9908034907476281,
       "question_id": "RAG054",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "When did Captain Lugard start writing in his diary in Uganda?",
@@ -2041,9 +2067,10 @@
       "ocr_quality": 0.9906176781253458,
       "question_id": "RAG055",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "On what date was the speech 'Colonial troops for South Africa' delivered?",
@@ -2057,9 +2084,10 @@
       "ocr_quality": 0.9903354424015491,
       "question_id": "RAG056",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "In what year did Livingstone cross the route from the North end of Nyassa to the South end of Tanganyika?",
@@ -2073,9 +2101,10 @@
       "ocr_quality": 0.9902669635020099,
       "question_id": "RAG057",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     },
     {
       "question": "When was the Macdonald Report reproduced in type and book?",
@@ -2089,9 +2118,10 @@
       "ocr_quality": 0.9902655206098466,
       "question_id": "RAG058",
       "verified_by": [
-        "Jakub"
+        "Jakub",
+        "yash"
       ],
-      "status": "partially_verified"
+      "status": "verified"
     }
   ]
 }
