@@ -1,0 +1,1057 @@
+{
+  "instructions": "Please verify each query/question below. For each item:\n1. Check if the query is reasonable and answerable\n2. Check if the expected answer is correct\n3. Add your name to 'verified_by' list\n4. Set status to 'verified' (acceptable) or 'rejected' (needs revision)\n5. Add notes in 'reviewer_notes' if needed\n\nTwo domain specialists should verify each item independently.",
+  "retrieval_queries": [
+    {
+      "query": "What were the working conditions and challenges faced by laborers in Ngamiland during the late 19th century?",
+      "query_type": "topical",
+      "expected_answer": "Laborers in Ngamiland faced challenges such as disease, death, and monotony, with the writer describing the experience as 'depressing' and 'difficult'.",
+      "difficulty": "medium",
+      "doc_id": "21728848",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9868516337577242,
+      "query_id": "Q002",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "Where did Sir Henry Morton Stanley stay in London during 1892-1893?",
+      "query_type": "factoid",
+      "expected_answer": "Richmond Terrace, Whitehall, S.W. and Burlington Hotel",
+      "difficulty": "easy",
+      "doc_id": "20537444",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9829365489953893,
+      "query_id": "Q003",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "Who was the Consul-General of the South African Republic who wrote an historical sketch of British policy towards the Boers in 1900?",
+      "query_type": "factoid",
+      "expected_answer": "Dr. G. B. Clark, M.P.",
+      "difficulty": "easy",
+      "doc_id": "21607987",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9871866938112515,
+      "query_id": "Q004",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "What was the weather like in Bulawayo in early 1895?",
+      "query_type": "factoid",
+      "expected_answer": "hot and cloudless for a month, followed by a 48-hour downpour",
+      "difficulty": "easy",
+      "doc_id": "20584523",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9837541231999916,
+      "query_id": "Q005",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "What was the status of the Shairers Company in Chinde, Africa in January 1903?",
+      "query_type": "factoid",
+      "expected_answer": "The company was being transferred, with all staff expected to continue with the new management.",
+      "difficulty": "medium",
+      "doc_id": "20655799",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9848341422509607,
+      "query_id": "Q007",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "What was the response of Moshilikatse to missionaries attempting to teach his people in the 1860s?",
+      "query_type": "factoid",
+      "expected_answer": "According to the document, Mosilikatse would not allow his people to be taught, as reported by natives and a person who recently came from Mosilikatse's country.",
+      "difficulty": "medium",
+      "doc_id": "20516469",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9875077905346913,
+      "query_id": "Q008",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "Who were the key members of the South African Vigilance Committee in 1900?",
+      "query_type": "factoid",
+      "expected_answer": "The committee included notable members such as Sir Gordon Sprigg, L. Abrahamson, and William H. Low, among others.",
+      "difficulty": "medium",
+      "doc_id": "21607631",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9865348666041803,
+      "query_id": "Q009",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "Who was the author of a 1901 review on the imperial administration in South Africa?",
+      "query_type": "factoid",
+      "expected_answer": "The Viscount de Matalha",
+      "difficulty": "medium",
+      "doc_id": "21607415",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9866995566031497,
+      "query_id": "Q010",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "Who did Mungo Park meet in London in 1804 to discuss preparations for a journey?",
+      "query_type": "factoid",
+      "expected_answer": "Mr. Pitt",
+      "difficulty": "medium",
+      "doc_id": "19531088",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9880468553590178,
+      "query_id": "Q011",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "What were the views of Major Gordon on the slave trade in Africa in the late 19th century?",
+      "query_type": "factoid",
+      "expected_answer": "He believed that the demand for slaves could be reduced by opening up the countries to civilization and improving communication, and that the suppression of the slave trade would require a gradual approach.",
+      "difficulty": "medium",
+      "doc_id": "22145389",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9808112746874911,
+      "query_id": "Q012",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "Who were the key figures involved in the discussion about the annexation of Sambaaus Country in Cape Colony in 1895?",
+      "query_type": "factoid",
+      "expected_answer": "Sir Hercules Ge, Sir Norton, Mrs Schreines, and others",
+      "difficulty": "medium",
+      "doc_id": "20373661",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9869420286076536,
+      "query_id": "Q014",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "What was the status of the London Missionary Society's work in Central Africa in May 1880?",
+      "query_type": "factoid",
+      "expected_answer": "All departments of the work are progressing, with an industrial missionary being a desideratum, and the people are generally receptive to the missionaries' words of peace and salvation.",
+      "difficulty": "medium",
+      "doc_id": "20509521",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9804833784957568,
+      "query_id": "Q015",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "What financial support did European governments provide to companies operating in Africa during the Scramble for Africa in the late 19th century?",
+      "query_type": "factoid",
+      "expected_answer": "Governments such as Britain, Belgium, and Italy provided guarantees, subsidies, and investments to companies like the Imperial British East Africa Company, the Congo Free State Railway, and the Royal Italian Company to support their operations in Africa.",
+      "difficulty": "medium",
+      "doc_id": "20545132",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9839821722219424,
+      "query_id": "Q016",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "Who are the notable individuals mentioned in the correspondence of Boustead & Co. in Zanzibar in 1890-1891?",
+      "query_type": "factoid",
+      "expected_answer": "Boustead, Carson, Swann, Mather, Shaw, Wright, Jones, Hemans, Wolfendale, and others.",
+      "difficulty": "medium",
+      "doc_id": "20514312",
+      "ocr_quality_tier": "low",
+      "ocr_quality": 0.9098232340564827,
+      "query_id": "Q017",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "What did Henry Morton Stanley identify as the 'great highway of commerce' to central Africa?",
+      "query_type": "factoid",
+      "expected_answer": "The Congo River",
+      "difficulty": "easy",
+      "doc_id": "21620153",
+      "ocr_quality_tier": "low",
+      "ocr_quality": 0.9167501414349162,
+      "query_id": "Q019",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "Who were the witnesses to the marriage contract of Jean Baptiste Cataste and Louise Francoise Lemeste in Grenada?",
+      "query_type": "factoid",
+      "expected_answer": "Several individuals including Thomas Dupleix de Montaigue, Dame Rose Garnier de la Roche, and others",
+      "difficulty": "medium",
+      "doc_id": "1041389",
+      "ocr_quality_tier": "low",
+      "ocr_quality": 0.9038678091415052,
+      "query_id": "Q020",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "What were the main concerns of the Catholic party in Belgium regarding the Congo in the late 19th century?",
+      "query_type": "factoid",
+      "expected_answer": "The document mentions the reprise du Congo (re-taking of the Congo) as one of the revendications d'ordre materiel (material claims) of the Catholic party.",
+      "difficulty": "medium",
+      "doc_id": "21998894",
+      "ocr_quality_tier": "low",
+      "ocr_quality": 0.9249427441924667,
+      "query_id": "Q021",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "What was the British government's stance on re-occupying Songola in Sudan in March 1896?",
+      "query_type": "factoid",
+      "expected_answer": "The British government was prepared to sanction re-occupation of Songola, but it required consultation with the Sirdar and consideration of the existing pressure on Korti.",
+      "difficulty": "medium",
+      "doc_id": "22079461",
+      "ocr_quality_tier": "low",
+      "ocr_quality": 0.9417833827386448,
+      "query_id": "Q022",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "What was the context of the German military campaign against the Massai people in East Africa in the late 19th century?",
+      "query_type": "factoid",
+      "expected_answer": "The document discusses the German military campaign against the Massai people in 1892, highlighting the challenges and complexities of colonial rule in East Africa.",
+      "difficulty": "medium",
+      "doc_id": "22000776",
+      "ocr_quality_tier": "low",
+      "ocr_quality": 0.9277434942403542,
+      "query_id": "Q023",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "What were the names of some of the places visited by explorers in Central Africa during the late 19th century?",
+      "query_type": "factoid",
+      "expected_answer": "Places such as Ngurame Hill, Kasungu, and Ngara Hill",
+      "difficulty": "medium",
+      "doc_id": "22060085",
+      "ocr_quality_tier": "low",
+      "ocr_quality": 0.7554542270298925,
+      "query_id": "Q024",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "What were the total sales of ivory in tons at the April 1888 auctions held by Lewis and Peat?",
+      "query_type": "factoid",
+      "expected_answer": "821 Tons",
+      "difficulty": "easy",
+      "doc_id": "21611194",
+      "ocr_quality_tier": "low",
+      "ocr_quality": 0.8253711885968064,
+      "query_id": "Q025",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "What were the terms of the land grant agreement between the British South Africa Company and Sir John Christopher Willoughby in 1892?",
+      "query_type": "factoid",
+      "expected_answer": "The agreement granted 600,000 acres of land in Mashonaland, South Africa, with conditions on selection, tenure, and development.",
+      "difficulty": "medium",
+      "doc_id": "22149318",
+      "ocr_quality_tier": "low",
+      "ocr_quality": 0.9451803232497367,
+      "query_id": "Q026",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "What were the meteorological observations recorded by John Kirk during his expedition to the Zambesi in 1860?",
+      "query_type": "factoid",
+      "expected_answer": "Temperatures, barometer readings, and other weather-related data",
+      "difficulty": "medium",
+      "doc_id": "19545824",
+      "ocr_quality_tier": "low",
+      "ocr_quality": 0.7529726495661988,
+      "query_id": "Q027",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "What was the title of Dr. Bmmtgarten's 1887 publication about Africa and its neighbors?",
+      "query_type": "factoid",
+      "expected_answer": "Deutsch-Afrika und seine Nachbarn im schwarzen Erdteile",
+      "difficulty": "easy",
+      "doc_id": "22028871",
+      "ocr_quality_tier": "low",
+      "ocr_quality": 0.9256747204256788,
+      "query_id": "Q028",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "What was the name of the ship that sailed from the River Thames on November 20, 1719, and arrived at CCC in March 1720 with 260 intended Negros?",
+      "query_type": "factoid",
+      "expected_answer": "Generous Jenny",
+      "difficulty": "medium",
+      "doc_id": "17401408",
+      "ocr_quality_tier": "low",
+      "ocr_quality": 0.8705689741257813,
+      "query_id": "Q030",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "Who was the leader of the expedition to Central Africa proposed by Roger Price in 1888?",
+      "query_type": "factoid",
+      "expected_answer": "Captain Bombay, although he later failed to take his position",
+      "difficulty": "medium",
+      "doc_id": "20504782",
+      "ocr_quality_tier": "low",
+      "ocr_quality": 0.9267402558532243,
+      "query_id": "Q031",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "Who was the recipient of a telegram sent by Cray Dawes & Co. in December 1888 regarding the dispatch of rifles to Zanzibar?",
+      "query_type": "factoid",
+      "expected_answer": "W. Mackinnon Esq.",
+      "difficulty": "medium",
+      "doc_id": "20544117",
+      "ocr_quality_tier": "low",
+      "ocr_quality": 0.9231563945527521,
+      "query_id": "Q032",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "What was the date of Henry Morton Stanley's return to the Stanley Falls, according to Emin Pasha Relief Expedition correspondence?",
+      "query_type": "factoid",
+      "expected_answer": "September 25",
+      "difficulty": "medium",
+      "doc_id": "20539901",
+      "ocr_quality_tier": "medium",
+      "ocr_quality": 0.9788194643624977,
+      "query_id": "Q033",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "Who were the officers of the 4th Battalion Argyll and Sutherland Highlanders during the South African campaign of 1900-1901?",
+      "query_type": "factoid",
+      "expected_answer": "A list of names including Col Mr. D. Campbell, Dr. Col C. Cumminghatne, Major J. T. Scott, and others",
+      "difficulty": "medium",
+      "doc_id": "19592658",
+      "ocr_quality_tier": "medium",
+      "ocr_quality": 0.9708712619899282,
+      "query_id": "Q034",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "What was the interest rate reduction offered to the Duke by Sir Arnold Burrowes in relation to a loan in 1882?",
+      "query_type": "factoid",
+      "expected_answer": "6 percent to 5 percent",
+      "difficulty": "medium",
+      "doc_id": "20533209",
+      "ocr_quality_tier": "medium",
+      "ocr_quality": 0.9769402965650854,
+      "query_id": "Q035",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "Who prepared the military report on the Cameroons in 1908?",
+      "query_type": "factoid",
+      "expected_answer": "The General Staff, War Office",
+      "difficulty": "easy",
+      "doc_id": "22097871",
+      "ocr_quality_tier": "medium",
+      "ocr_quality": 0.9764957036913153,
+      "query_id": "Q036",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "What was the author's perspective on the capacity of Africans for instruction during the mid-19th century?",
+      "query_type": "factoid",
+      "expected_answer": "The author believed that Africans were capable of instruction, citing the example of educated African boys who proved to be quicker learners than Europeans.",
+      "difficulty": "medium",
+      "doc_id": "19583464",
+      "ocr_quality_tier": "medium",
+      "ocr_quality": 0.9583297513786827,
+      "query_id": "Q037",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "Who compiled the 1902 precis of information concerning Nigeria and the Colony and Protectorate of Lagos?",
+      "query_type": "factoid",
+      "expected_answer": "Intelligence Division, War Office",
+      "difficulty": "easy",
+      "doc_id": "22089471",
+      "ocr_quality_tier": "medium",
+      "ocr_quality": 0.9738733223146998,
+      "query_id": "Q038",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "Who were some of the prominent individuals who contributed financially to the Emin Relief Expedition in 1890?",
+      "query_type": "factoid",
+      "expected_answer": "Mr. Denny, Mr. A. L. Bruce",
+      "difficulty": "medium",
+      "doc_id": "20539255",
+      "ocr_quality_tier": "medium",
+      "ocr_quality": 0.9582875744153124,
+      "query_id": "Q039",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "Who were the key individuals involved in the leadership of the British South Africa Company in the late 19th century?",
+      "query_type": "factoid",
+      "expected_answer": "The Duke of Abercorn, the Duke of Fife, Lord Gifford, Sir Horace Farquhar, Alfred Beit, Albert Grey, George Cawston, and Cecil J. Rhodes",
+      "difficulty": "medium",
+      "doc_id": "22046287",
+      "ocr_quality_tier": "medium",
+      "ocr_quality": 0.964795374016152,
+      "query_id": "Q040",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "Who addressed a confidential letter to James F. Hutton, President of the Chamber of Commerce of Manchester, in 1885?",
+      "query_type": "factoid",
+      "expected_answer": "Consul Holmwood",
+      "difficulty": "easy",
+      "doc_id": "20544045",
+      "ocr_quality_tier": "medium",
+      "ocr_quality": 0.9537453954482364,
+      "query_id": "Q041",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "Who assisted German explorer F. Ehlers on his journey to Kilima Njaro in 1889?",
+      "query_type": "factoid",
+      "expected_answer": "English Consul General Colonel Euan Smith and English missionaries",
+      "difficulty": "medium",
+      "doc_id": "20544245",
+      "ocr_quality_tier": "medium",
+      "ocr_quality": 0.9697322528707153,
+      "query_id": "Q042",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "What were the reported total casualties of the British in the Second Boer War by May 6, 1901?",
+      "query_type": "factoid",
+      "expected_answer": "63,498",
+      "difficulty": "medium",
+      "doc_id": "21607311",
+      "ocr_quality_tier": "medium",
+      "ocr_quality": 0.9651447809598471,
+      "query_id": "Q043",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "Who were the authors of the first Military Report on Algeria prepared in the Intelligence Department, War Office in 1903?",
+      "query_type": "factoid",
+      "expected_answer": "Major A. L. Lynden-Bell and Captain R. St. A. Gorton",
+      "difficulty": "medium",
+      "doc_id": "22087874",
+      "ocr_quality_tier": "medium",
+      "ocr_quality": 0.9710346187687777,
+      "query_id": "Q044",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "What was the proposed method for Sierra Leone's military contribution in 1908?",
+      "query_type": "factoid",
+      "expected_answer": "A fixed percentage of the revenue, as in the case of other colonies similarly situated",
+      "difficulty": "medium",
+      "doc_id": "22094862",
+      "ocr_quality_tier": "medium",
+      "ocr_quality": 0.9606744579254569,
+      "query_id": "Q045",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "Who were the members of the Court of Directors of the Imperial British East Africa Company in 1888?",
+      "query_type": "factoid",
+      "expected_answer": "A list of names including Sir William Mackinnon, Lord Brasse, Sir Thomas Fowell Buxton, and others",
+      "difficulty": "medium",
+      "doc_id": "20546672",
+      "ocr_quality_tier": "medium",
+      "ocr_quality": 0.9779199313303408,
+      "query_id": "Q046",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "Who led the initial attempt to retrieve the Golden Stool in February 1900?",
+      "query_type": "factoid",
+      "expected_answer": "Captain Armitage",
+      "difficulty": "medium",
+      "doc_id": "22087614",
+      "ocr_quality_tier": "medium",
+      "ocr_quality": 0.965275295036988,
+      "query_id": "Q047",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "What were the dates of correspondence between Lord Wolseley and Kitchener during the Sudan conquest?",
+      "query_type": "factoid",
+      "expected_answer": "June 16, 1894; April 14, 1897; July 3, 1895",
+      "difficulty": "easy",
+      "doc_id": "22079381",
+      "ocr_quality_tier": "medium",
+      "ocr_quality": 0.9627374590404607,
+      "query_id": "Q048",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "What was the outcome of Henry Sanford's purchase of the Powell Grant in Florida in 1882?",
+      "query_type": "factoid",
+      "expected_answer": "He completed the purchase of 5000 acres, with about half being good land and the rest mostly swamps.",
+      "difficulty": "medium",
+      "doc_id": "20538890",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9817286132460905,
+      "query_id": "Q049",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "query": "Who were some notable explorers of Central Africa in the mid-19th century?",
+      "query_type": "factoid",
+      "expected_answer": "Livingston, Du Chaillu, Burton, Speke, Grant, and Baker",
+      "difficulty": "medium",
+      "doc_id": "22039048",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9908190176837361,
+      "query_id": "Q050",
+      "verified_by": [
+        "yash"
+      ],
+      "status": "partially_verified"
+    }
+  ],
+  "rag_questions": [
+    {
+      "question": "Who is the author of the article 'Fetishism in Congo land'?",
+      "answer": "E. J. Glave",
+      "evidence": "BY E. J. GLAVE, ONE OF STANLEYS PIONEER OFFICERS.",
+      "answer_type": "person",
+      "difficulty": "easy",
+      "notes": "No OCR errors detected in the relevant text span.",
+      "doc_id": "21910988",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9968622403603979,
+      "question_id": "RAG001",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "Who is mentioned as not lending his name to a theory about the decay of races?",
+      "answer": "Darwin",
+      "evidence": "to which however Darwin did not lend his name, that races like individuals bear in themselves the seeds of decay,",
+      "answer_type": "person",
+      "difficulty": "easy",
+      "notes": "No apparent OCR errors affecting this Q&A",
+      "doc_id": "22041071",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.996616487796959,
+      "question_id": "RAG002",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "When did Governor Maclean leave the Gold Coast?",
+      "answer": "1831",
+      "evidence": "When Governor Madean left the Gold Coast in 1831e on leave of absence",
+      "answer_type": "date",
+      "difficulty": "easy",
+      "notes": "Note: There is an OCR error in the original text, '1831e' instead of '1831'.",
+      "doc_id": "21955936",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9956544139063765,
+      "question_id": "RAG003",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "Who delivered the lecture on the future of Africa at the Society of Arts?",
+      "answer": "Dr. Carl Peters",
+      "evidence": "DELIVERED RY Dk. carl peters ON THE FUTURE OF AFRICA AT THE SOCIETY OF ARTS.",
+      "answer_type": "person",
+      "difficulty": "easy",
+      "notes": "The OCR quality seems to be good in this section, with only minor formatting issues.",
+      "doc_id": "22038769",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9956273955251054,
+      "question_id": "RAG004",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "When did B. Erickstians write the preface to his manuscript?",
+      "answer": "18 January 1849",
+      "evidence": "Anamator 18 Januans 1849.",
+      "answer_type": "date",
+      "difficulty": "easy",
+      "notes": "The text contains OCR errors, but the date is clearly readable.",
+      "doc_id": "21955998",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9951577641529998,
+      "question_id": "RAG005",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "When did the trial of William Fortunatus John, Phoebe John, John Williams, and Kezia Williams come to a close?",
+      "answer": "Monday the 18th September",
+      "evidence": "The trial, which was one of the longest and most important of criminal cases in the annals of the Colony, came to a close on Monday the 18th September,",
+      "answer_type": "date",
+      "difficulty": "easy",
+      "notes": "No OCR errors detected in the relevant text span.",
+      "doc_id": "21929504",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.995084816577275,
+      "question_id": "RAG006",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "When did the party arrive at the island opposite the village of Chilisa?",
+      "answer": "August 6, 1561",
+      "evidence": "in the morning of the 6 August 1561 an awarent had been completed for the stant the Perean un",
+      "answer_type": "date",
+      "difficulty": "easy",
+      "notes": "The OCR quality seems to be good for this specific text span, with no apparent errors affecting the answer.",
+      "doc_id": "19546066",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9932189323402187,
+      "question_id": "RAG007",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "When did the Opium War break out?",
+      "answer": "1839",
+      "evidence": "When the Opium War broke out in 1839, a young Scotch doctor, named David Living¬ stone, had just completed his studies, and was prepar¬ ing to embark on his career as a missionary in China.",
+      "answer_type": "date",
+      "difficulty": "easy",
+      "notes": "No apparent OCR errors in the relevant text span.",
+      "doc_id": "22003341",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9930899777316535,
+      "question_id": "RAG008",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "In what year was the journal written by Marcus R. P. Dorman?",
+      "answer": "1905",
+      "evidence": "M. R. P. D. London 1905.",
+      "answer_type": "date",
+      "difficulty": "easy",
+      "notes": "No apparent OCR errors in the relevant text span.",
+      "doc_id": "22001310",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9928986613483788,
+      "question_id": "RAG009",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "When was Robert Moffat's last letter to the Directors dated?",
+      "answer": "25th Oct",
+      "evidence": "My last was dates 25th Oct and sent to the Colong by Br Edwarde in Now",
+      "answer_type": "date",
+      "difficulty": "easy",
+      "notes": "The text appears to be a scanned document with some OCR errors, but the date is clearly readable.",
+      "doc_id": "20516084",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9928160532444463,
+      "question_id": "RAG010",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "In what year was Lugard's book reviewed in various publications?",
+      "answer": "1893",
+      "evidence": "2and 1893 and after.",
+      "answer_type": "date",
+      "difficulty": "easy",
+      "notes": "The OCR quality seems good for this specific text span, with no apparent errors affecting the answer.",
+      "doc_id": "21727642",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9926649518698281,
+      "question_id": "RAG011",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "What was the latitude of the southern extremity of Lake Nyassa when the author arrived?",
+      "answer": "14.25 S. Lat.",
+      "evidence": "and found it in 14.25 S. Lat. from the Southern extremity",
+      "answer_type": "number",
+      "difficulty": "easy",
+      "notes": "No apparent OCR errors in the relevant text span.",
+      "doc_id": "19543381",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9926111338726984,
+      "question_id": "RAG012",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "Who is the publisher of the story 'Faithful Shirley; or, A Royal Queen of Hearts'?",
+      "answer": "James Henderson",
+      "evidence": "The Sole Right of Englin Publication of this story is Held by James Henderson, Publisher.",
+      "answer_type": "person",
+      "difficulty": "easy",
+      "notes": "No notable OCR errors in the text span supporting the answer.",
+      "doc_id": "22033001",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9924832409981296,
+      "question_id": "RAG013",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "When was the resolution of the House of Representatives calling for information about the Congo Conference at Berlin dated?",
+      "answer": "January 5, 1885",
+      "evidence": "A resolution of the House of Representatives, dated the 5th of Jan¬uary, 1885, calling for information respecting the participation of the* United States in the African Conference now sitting at Berlin,",
+      "answer_type": "date",
+      "difficulty": "easy",
+      "notes": "No notable OCR errors in the supporting text span.",
+      "doc_id": "21620136",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.992146420069524,
+      "question_id": "RAG014",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "When was the lecture 'The Status of the Uitlander' delivered?",
+      "answer": "Saturday, the 13th October, 1894",
+      "evidence": "Being a Lecture delivered in the Temperance Hall, Pretoria, on Saturday, the 13th October, 1894, under the auspâces of the Pretoria Uitlandersâ Association.",
+      "answer_type": "date",
+      "difficulty": "easy",
+      "notes": "No apparent OCR errors in the relevant text span.",
+      "doc_id": "21607061",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9920650024412443,
+      "question_id": "RAG015",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "Who were the first Europeans to visit Uganda?",
+      "answer": "Beke & Grant",
+      "evidence": "Aganda was first visited – or discovered – by MS5. Brit, Emp. 5. 53 Beke & Grant in 164.",
+      "answer_type": "person",
+      "difficulty": "easy",
+      "notes": "Note that the year mentioned in the text ('164') appears to be an OCR error, as it is likely that the correct year is '1864', but this is not explicitly stated in the provided text span.",
+      "doc_id": "21699918",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9918927485193499,
+      "question_id": "RAG016",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "When was Wissmann scheduled to start for Zanzibar?",
+      "answer": "October 5th or 12th",
+      "evidence": "Wissmann was to start for Zanzibar on October 5th or 12th",
+      "answer_type": "date",
+      "difficulty": "easy",
+      "notes": "No apparent OCR errors in the relevant text span.",
+      "doc_id": "21911220",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9918021070274767,
+      "question_id": "RAG017",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "When did Gerald Waller send a letter to Dr. Badier regarding the Gangibou Concession?",
+      "answer": "7 May 1878",
+      "evidence": "Correspondence between de Strike, and Gotaller 2 degarding the Gangibou Concession. 7 May 1878.",
+      "answer_type": "date",
+      "difficulty": "easy",
+      "notes": "The OCR quality appears to be good in this section of the document, with no visible errors affecting the answer.",
+      "doc_id": "20579602",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9916948492754925,
+      "question_id": "RAG018",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "When did Mackenzie and Hepburn outline a plan for a chain of stations from Kurugan to Tanzanyika?",
+      "answer": "1883",
+      "evidence": "1883 Mackenzie and Hepburn outlined plan for a chain of stations from Kurugan to Tanzanyika.",
+      "answer_type": "date",
+      "difficulty": "easy",
+      "notes": "No notable OCR errors in the text span supporting the answer.",
+      "doc_id": "20503323",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9912545209810856,
+      "question_id": "RAG019",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "When was Lord Delamere and Mr. Baillie suspended from duties on the Legislative Council?",
+      "answer": "March 24",
+      "evidence": "2 1 Ditto Telegram March 24 Reports suspension of Lord Delamere and Mr. Baillie from duties on the Legislative Council, and states that they have been informed that the removal of their names from the list of unofficial members is being recom- mended.",
+      "answer_type": "date",
+      "difficulty": "easy",
+      "notes": "No apparent OCR errors in the relevant text span.",
+      "doc_id": "21911115",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.99122355959743,
+      "question_id": "RAG020",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "In what year did Mrs. Kona write a letter after her marriage?",
+      "answer": "1867",
+      "evidence": "Letter from Mrs. K. Kona, after Meruage C. 1867)",
+      "answer_type": "date",
+      "difficulty": "easy",
+      "notes": "The text appears to be of moderate OCR quality, with some minor errors, but the answer is clearly readable.",
+      "doc_id": "19543915",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9912218465003885,
+      "question_id": "RAG021",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "Where was the writer of the letter when they wrote to their mother on February 12th?",
+      "answer": "Jantzebue",
+      "evidence": "Jantzebue 12th Fabrer My own darting Mother",
+      "answer_type": "place",
+      "difficulty": "easy",
+      "notes": "The OCR quality seems to be good for this part of the document, with no apparent errors in the relevant text span.",
+      "doc_id": "19524071",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9910415617925129,
+      "question_id": "RAG022",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "Who is the author of the book 'Cape Coast Castle: or, the Adventures of Sir Thomas Fitzosborne'?",
+      "answer": "Mrs. R. LEE",
+      "evidence": "BV Mrs. R. LEE AUTHOR OF THE AFRICAN WANDERERS, \" ADVENTDRES IN AUSTRALIA, ETC.",
+      "answer_type": "person",
+      "difficulty": "easy",
+      "notes": "The OCR quality seems to be good in this part of the document, with no noticeable errors.",
+      "doc_id": "21929652",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.990998531189801,
+      "question_id": "RAG023",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "When did Richard Lander and his brother strike inland from the Niger River?",
+      "answer": "1830",
+      "evidence": "In 1830 Richard Lander and his brother, having struck inland from",
+      "answer_type": "date",
+      "difficulty": "easy",
+      "notes": "No apparent OCR errors affecting this Q&A.",
+      "doc_id": "21926519",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9908191079263511,
+      "question_id": "RAG024",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "When did David Livingstone's journeys in Central Africa take place?",
+      "answer": "1843-1873",
+      "evidence": "Livingston, (1843-1873,) from Cape Colony to near the equator, and from the Indian Ocean to the Atlantic, comprising about one-third of the whole Continent,",
+      "answer_type": "date",
+      "difficulty": "easy",
+      "notes": "No notable OCR errors in the relevant text span.",
+      "doc_id": "22039048",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9908190176837361,
+      "question_id": "RAG025",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "In what year did Hicks Pasha's army suffer a complete annihilation?",
+      "answer": "1882",
+      "evidence": "the awful disaster which over-whelmed Hicks Pasha in 1882",
+      "answer_type": "date",
+      "difficulty": "easy",
+      "notes": "No apparent OCR errors in this text span.",
+      "doc_id": "22079911",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9908034907476281,
+      "question_id": "RAG026",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "When did Captain Lugard start writing in his diary in Uganda?",
+      "answer": "Feb. 20. 1892",
+      "evidence": "From. Feb. 20. 1892.",
+      "answer_type": "date",
+      "difficulty": "easy",
+      "notes": "The text appears to be of good quality with minimal OCR errors.",
+      "doc_id": "21730393",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9906176781253458,
+      "question_id": "RAG027",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "On what date was the speech 'Colonial troops for South Africa' delivered?",
+      "answer": "19th October, 1899",
+      "evidence": "Delivered in the Legislative Assembly on the 19th October, 1899.",
+      "answer_type": "date",
+      "difficulty": "easy",
+      "notes": "The OCR quality appears to be good, with no errors affecting the answer.",
+      "doc_id": "21607240",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9903354424015491,
+      "question_id": "RAG028",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "In what year did Livingstone cross the route from the North end of Nyassa to the South end of Tanganyika?",
+      "answer": "1868",
+      "evidence": "No. 4 Route. From North end of Nyassa to South end of Tanganyika. -Livingstone crossed this route in 1868, but beyond this we are entirely ignorant of it, and can only conjecture that it is moun- tainous.",
+      "answer_type": "date",
+      "difficulty": "easy",
+      "notes": "No apparent OCR errors in the relevant text span.",
+      "doc_id": "20581677",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9902669635020099,
+      "question_id": "RAG029",
+      "verified_by": [],
+      "status": "generated"
+    },
+    {
+      "question": "When was the Macdonald Report reproduced in type and book?",
+      "answer": "1895",
+      "evidence": "Reproduced in type pand book 1895.",
+      "answer_type": "date",
+      "difficulty": "easy",
+      "notes": "The OCR quality seems good for this specific text span, with no apparent errors.",
+      "doc_id": "21698406",
+      "ocr_quality_tier": "high",
+      "ocr_quality": 0.9902655206098466,
+      "question_id": "RAG030",
+      "verified_by": [],
+      "status": "generated"
+    }
+  ]
+}
