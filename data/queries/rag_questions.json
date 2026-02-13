@@ -10,8 +10,13 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9956544139063765,
     "question_id": "RAG001",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "yash"
+    ],
+    "status": "partially_verified",
+    "decisions": {
+      "yash": "accept"
+    }
   },
   {
     "question": "When did the author, B. Erickstians, write the preface to his manuscript?",
@@ -24,8 +29,13 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9951577641529998,
     "question_id": "RAG002",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "yash"
+    ],
+    "status": "partially_verified",
+    "decisions": {
+      "yash": "accept"
+    }
   },
   {
     "question": "How many houses were counted in the first part of the Matabele settlement?",
@@ -38,8 +48,13 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.993659704348822,
     "question_id": "RAG003",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "yash"
+    ],
+    "status": "partially_verified",
+    "decisions": {
+      "yash": "accept"
+    }
   },
   {
     "question": "When did the voyage leave Port Glasgow?",
@@ -52,8 +67,13 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9931785027642632,
     "question_id": "RAG004",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "yash"
+    ],
+    "status": "partially_verified",
+    "decisions": {
+      "yash": "accept"
+    }
   },
   {
     "question": "When was Robert Moffat's last letter to the Directors dated?",
@@ -66,8 +86,13 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9928160532444463,
     "question_id": "RAG005",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "yash"
+    ],
+    "status": "partially_verified",
+    "decisions": {
+      "yash": "accept"
+    }
   },
   {
     "question": "What latitude did the writer find the Nyassa lake at?",
@@ -80,8 +105,13 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9926111338726984,
     "question_id": "RAG006",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "yash"
+    ],
+    "status": "partially_verified",
+    "decisions": {
+      "yash": "accept"
+    }
   },
   {
     "question": "When did Henry Arbuthnot write a letter to his sister from the ship at sea?",
@@ -94,8 +124,13 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.992385745085791,
     "question_id": "RAG007",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "yash"
+    ],
+    "status": "partially_verified",
+    "decisions": {
+      "yash": "accept"
+    }
   },
   {
     "question": "When did Stort William receive a letter from the correspondent?",
@@ -108,8 +143,13 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9911072323127162,
     "question_id": "RAG008",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "yash"
+    ],
+    "status": "partially_verified",
+    "decisions": {
+      "yash": "accept"
+    }
   },
   {
     "question": "When did Sir Hugh McPherson join Bihar and Orissa as an Assistant Magistrate?",
@@ -122,22 +162,13 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9909893587267657,
     "question_id": "RAG009",
-    "verified_by": [],
-    "status": "generated"
-  },
-  {
-    "question": "Who did Major Douglas Cunninghame Graham mention as a ruler he had met?",
-    "answer": "Sir James Caprat",
-    "evidence": "aud I have be rulerett Metter the reme Courts Sir James Caprat",
-    "answer_type": "person",
-    "difficulty": "medium",
-    "notes": "The OCR quality appears to be moderate, with some minor errors in the text span containing the answer (e.g., 'rulerett' instead of 'ruled'). However, the name 'Sir James Caprat' is still clearly readable.",
-    "doc_id": "22317634",
-    "ocr_quality_tier": "high",
-    "ocr_quality": 0.9908490521926354,
-    "question_id": "RAG010",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "yash"
+    ],
+    "status": "partially_verified",
+    "decisions": {
+      "yash": "accept"
+    }
   },
   {
     "question": "When was the private letter written by Henry Dundas to Lord Cornwallis?",
@@ -150,8 +181,13 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9905221393531275,
     "question_id": "RAG011",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "yash"
+    ],
+    "status": "partially_verified",
+    "decisions": {
+      "yash": "accept"
+    }
   },
   {
     "question": "Where was John Barff when he wrote to David Livingstone's mother?",
@@ -164,8 +200,13 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.990337594159782,
     "question_id": "RAG012",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "yash"
+    ],
+    "status": "partially_verified",
+    "decisions": {
+      "yash": "accept"
+    }
   },
   {
     "question": "When did Basil Cochrane deliver his defence at the General Sessions of Oyer of Terminer and Goal in Delivery?",
@@ -178,8 +219,13 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9900274170616344,
     "question_id": "RAG013",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "yash"
+    ],
+    "status": "partially_verified",
+    "decisions": {
+      "yash": "accept"
+    }
   },
   {
     "question": "When did Livingstone first revisit the scenes of civilization after eleven years?",
@@ -192,8 +238,13 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9899326338052294,
     "question_id": "RAG014",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "yash"
+    ],
+    "status": "partially_verified",
+    "decisions": {
+      "yash": "accept"
+    }
   },
   {
     "question": "What was the date of Reverend John Mackenzie's letter describing his journey to the top of Table Mountain?",
@@ -206,8 +257,13 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9896391426830524,
     "question_id": "RAG015",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "yash"
+    ],
+    "status": "partially_verified",
+    "decisions": {
+      "yash": "accept"
+    }
   },
   {
     "question": "Where was John Barff writing from?",
@@ -220,8 +276,13 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9893971993256175,
     "question_id": "RAG016",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "yash"
+    ],
+    "status": "partially_verified",
+    "decisions": {
+      "yash": "accept"
+    }
   },
   {
     "question": "When did the writer expect to leave for Europe?",
@@ -234,8 +295,13 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9892537082844782,
     "question_id": "RAG017",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "yash"
+    ],
+    "status": "partially_verified",
+    "decisions": {
+      "yash": "accept"
+    }
   },
   {
     "question": "In what year did George Anderson's friend, who fell down dead in a lather, die?",
@@ -248,8 +314,13 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9891624645643239,
     "question_id": "RAG019",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "yash"
+    ],
+    "status": "partially_verified",
+    "decisions": {
+      "yash": "accept"
+    }
   },
   {
     "question": "When did Lieutenant General Sir Byne Coote write to the Select Committee?",
@@ -262,8 +333,13 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9889114426608878,
     "question_id": "RAG020",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "yash"
+    ],
+    "status": "partially_verified",
+    "decisions": {
+      "yash": "accept"
+    }
   },
   {
     "question": "When did Mr. Ross present his resignation to the Governor and Council?",
@@ -276,8 +352,13 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9888804122859285,
     "question_id": "RAG021",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "yash"
+    ],
+    "status": "partially_verified",
+    "decisions": {
+      "yash": "accept"
+    }
   },
   {
     "question": "What is the percentage of phosphoricaed in the soil analysis?",
@@ -290,8 +371,13 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9888510491770233,
     "question_id": "RAG022",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "yash"
+    ],
+    "status": "partially_verified",
+    "decisions": {
+      "yash": "accept"
+    }
   },
   {
     "question": "When did the writer receive the Company's letter?",
@@ -304,8 +390,13 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9888390316097699,
     "question_id": "RAG023",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "yash"
+    ],
+    "status": "partially_verified",
+    "decisions": {
+      "yash": "accept"
+    }
   },
   {
     "question": "Where was David Livingstone when he wrote the first letter to his daughter Agnes?",
@@ -318,8 +409,13 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9883499172628615,
     "question_id": "RAG024",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "yash"
+    ],
+    "status": "partially_verified",
+    "decisions": {
+      "yash": "accept"
+    }
   },
   {
     "question": "On what date was Sir Hugh McPherson invited to broadcast a talk to the Scottish schools on 'A Journey through Behar'?",
@@ -332,22 +428,13 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9882985694462589,
     "question_id": "RAG025",
-    "verified_by": [],
-    "status": "generated"
-  },
-  {
-    "question": "Who was the Commander in Chief that Sir Robert Fletcher was under arrest by?",
-    "answer": "his Lops",
-    "evidence": "his Lops, whether from his own natural disposition, or the rash counsel of his advisers, without any provocation on the part of Sir Robert Fletcher, thought proper to put him under arrest,",
-    "answer_type": "person",
-    "difficulty": "easy",
-    "notes": "The text quality is relatively good, with minor OCR errors, but the relevant text span is clear and readable.",
-    "doc_id": "22341402",
-    "ocr_quality_tier": "high",
-    "ocr_quality": 0.9882189864377815,
-    "question_id": "RAG026",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "yash"
+    ],
+    "status": "partially_verified",
+    "decisions": {
+      "yash": "accept"
+    }
   },
   {
     "question": "In what year did the mutiny occur that drew the attention of the British public to India?",
@@ -360,8 +447,13 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9878389486354968,
     "question_id": "RAG027",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "yash"
+    ],
+    "status": "partially_verified",
+    "decisions": {
+      "yash": "accept"
+    }
   },
   {
     "question": "When was Lieut Colonel Geils appointed a Brevet Major of Engineers?",
@@ -374,8 +466,13 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9877915011620552,
     "question_id": "RAG028",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "yash"
+    ],
+    "status": "partially_verified",
+    "decisions": {
+      "yash": "accept"
+    }
   },
   {
     "question": "When did Cornwallis dispatch a letter to Dundas regarding the best mode of new modelling the Army in India?",
@@ -388,8 +485,13 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.98773606075266,
     "question_id": "RAG029",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "yash"
+    ],
+    "status": "partially_verified",
+    "decisions": {
+      "yash": "accept"
+    }
   },
   {
     "question": "What is the date of the letter from Gulton Hill to Commodore George Johnstone?",
@@ -402,7 +504,12 @@
     "ocr_quality_tier": "high",
     "ocr_quality": 0.9877036131323776,
     "question_id": "RAG030",
-    "verified_by": [],
-    "status": "generated"
+    "verified_by": [
+      "yash"
+    ],
+    "status": "partially_verified",
+    "decisions": {
+      "yash": "accept"
+    }
   }
 ]
