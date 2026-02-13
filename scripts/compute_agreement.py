@@ -21,15 +21,47 @@ from collections import Counter
 
 
 def _decision(item: dict, reviewer: str) -> str | None:
-    """Infer a reviewer's decision from the item status and verified_by list."""
+    """Infer a reviewer's decision from the item data.
+    
+    Detection priority:
+    1. Explicit per-reviewer 'decisions' dict (new format) → definitive
+    2. Explicit rejection note from this reviewer in reviewer_notes → reject
+    3. Item status is 'rejected' and reviewer is in verified_by → infer reject
+    4. Reviewer in verified_by with non-rejected status → accept
+    5. Reviewer not in verified_by → None (not yet reviewed)
+    """
+    if reviewer not in item.get("verified_by", []):
+        return None
+    
+    # Priority 1: explicit decisions dict (most reliable)
+    decisions = item.get("decisions", {})
+    if reviewer in decisions:
+        return decisions[reviewer]
+    
+    # Priority 2: check reviewer_notes for rejection
     notes = item.get("reviewer_notes", [])
-    # Check if this reviewer explicitly rejected
     for note in notes:
         if note.startswith(f"{reviewer}:"):
             return "reject"
-    if reviewer in item.get("verified_by", []):
-        return "accept"
-    return None
+    
+    # Priority 3: use item status as fallback
+    status = item.get("status", "")
+    if status == "rejected":
+        verified_by = item.get("verified_by", [])
+        if len(verified_by) == 1:
+            return "reject"
+        # Multiple reviewers, check if another reviewer has a rejection note
+        other_rejected = any(
+            note.startswith(f"{other}:")
+            for note in notes
+            for other in verified_by
+            if other != reviewer
+        )
+        if other_rejected:
+            return "accept"  # Other reviewer rejected, this one didn't
+        return "reject"  # Conservative: can't distinguish
+    
+    return "accept"
 
 
 def cohens_kappa(labels_a: list[int], labels_b: list[int]) -> float:

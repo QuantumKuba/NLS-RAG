@@ -235,8 +235,14 @@ Respond with ONLY a JSON object:
     return questions
 
 
-def save_queries(queries: list[dict], rag_questions: list[dict], output_dir: Path):
-    """Save queries in multiple formats for different tools."""
+def save_queries(queries: list[dict], rag_questions: list[dict], output_dir: Path,
+                 skip_template: bool = False):
+    """Save queries in multiple formats for different tools.
+    
+    Args:
+        skip_template: If True, do not overwrite verification_template.json.
+                       Used when called from verify mode to preserve rejection records.
+    """
     output_dir.mkdir(parents=True, exist_ok=True)
     
     # ─── Retrieval queries ───
@@ -269,22 +275,23 @@ def save_queries(queries: list[dict], rag_questions: list[dict], output_dir: Pat
         json.dump(rag_questions, f, indent=2, ensure_ascii=False)
     
     # ─── Human verification template ───
-    verification = {
-        "instructions": (
-            "Please verify each query/question below. For each item:\n"
-            "1. Check if the query is reasonable and answerable\n"
-            "2. Check if the expected answer is correct\n"
-            "3. Add your name to 'verified_by' list\n"
-            "4. Set status to 'verified' (acceptable) or 'rejected' (needs revision)\n"
-            "5. Add notes in 'reviewer_notes' if needed\n\n"
-            "Two domain specialists should verify each item independently."
-        ),
-        "retrieval_queries": queries,
-        "rag_questions": rag_questions,
-    }
-    
-    with open(output_dir / "verification_template.json", "w") as f:
-        json.dump(verification, f, indent=2, ensure_ascii=False)
+    if not skip_template:
+        verification = {
+            "instructions": (
+                "Please verify each query/question below. For each item:\n"
+                "1. Check if the query is reasonable and answerable\n"
+                "2. Check if the expected answer is correct\n"
+                "3. Add your name to 'verified_by' list\n"
+                "4. Set status to 'verified' (acceptable) or 'rejected' (needs revision)\n"
+                "5. Add notes in 'reviewer_notes' if needed\n\n"
+                "Two domain specialists should verify each item independently."
+            ),
+            "retrieval_queries": queries,
+            "rag_questions": rag_questions,
+        }
+        
+        with open(output_dir / "verification_template.json", "w") as f:
+            json.dump(verification, f, indent=2, ensure_ascii=False)
     
     print(f"\n{'='*60}")
     print(f"Saved queries to: {output_dir}")
@@ -329,6 +336,12 @@ def verify_queries(query_dir: Path):
         print(f"  Query: {q['query']}")
         print(f"  Expected: {q.get('expected_answer', 'N/A')}")
         print(f"  Type: {q.get('query_type', '?')} | Difficulty: {q.get('difficulty', '?')}")
+        # Show prior reviewer decisions
+        if q.get("verified_by"):
+            print(f"  Prior reviews: {q['verified_by']} → status={q.get('status', '?')}")
+        if q.get("reviewer_notes"):
+            for note in q["reviewer_notes"]:
+                print(f"  ⚠ Note: {note}")
         
         action = input("  (a)ccept / (r)eject / (s)kip / (q)uit: ").strip().lower()
         
@@ -338,11 +351,20 @@ def verify_queries(query_dir: Path):
             continue
         elif action == "a":
             q["verified_by"].append(reviewer_name)
-            q["status"] = "verified" if len(q["verified_by"]) >= 2 else "partially_verified"
+            q.setdefault("decisions", {})[reviewer_name] = "accept"
+            # Only set to verified if no one rejected
+            if q.get("decisions", {}).get(reviewer_name) == "accept" and \
+               all(d == "accept" for d in q.get("decisions", {}).values()):
+                q["status"] = "verified" if len(q["verified_by"]) >= 2 else "partially_verified"
+            else:
+                q["status"] = "disputed"
         elif action == "r":
             q["verified_by"].append(reviewer_name)
+            q.setdefault("decisions", {})[reviewer_name] = "reject"
             q["status"] = "rejected"
             notes = input("  Reason for rejection: ").strip()
+            if not notes:
+                notes = "no reason given"
             q.setdefault("reviewer_notes", []).append(f"{reviewer_name}: {notes}")
     
     # Verify RAG questions
@@ -358,6 +380,12 @@ def verify_queries(query_dir: Path):
         print(f"  Type: {q.get('answer_type', '?')} | Difficulty: {q.get('difficulty', '?')}")
         if q.get("notes"):
             print(f"  Notes: {q['notes']}")
+        # Show prior reviewer decisions
+        if q.get("verified_by"):
+            print(f"  Prior reviews: {q['verified_by']} → status={q.get('status', '?')}")
+        if q.get("reviewer_notes"):
+            for note in q["reviewer_notes"]:
+                print(f"  ⚠ Note: {note}")
         
         action = input("  (a)ccept / (r)eject / (s)kip / (q)uit: ").strip().lower()
         
@@ -367,11 +395,18 @@ def verify_queries(query_dir: Path):
             continue
         elif action == "a":
             q["verified_by"].append(reviewer_name)
-            q["status"] = "verified" if len(q["verified_by"]) >= 2 else "partially_verified"
+            q.setdefault("decisions", {})[reviewer_name] = "accept"
+            if all(d == "accept" for d in q.get("decisions", {}).values()):
+                q["status"] = "verified" if len(q["verified_by"]) >= 2 else "partially_verified"
+            else:
+                q["status"] = "disputed"
         elif action == "r":
             q["verified_by"].append(reviewer_name)
+            q.setdefault("decisions", {})[reviewer_name] = "reject"
             q["status"] = "rejected"
             notes = input("  Reason for rejection: ").strip()
+            if not notes:
+                notes = "no reason given"
             q.setdefault("reviewer_notes", []).append(f"{reviewer_name}: {notes}")
     
     # Save updated template
@@ -379,9 +414,9 @@ def verify_queries(query_dir: Path):
         json.dump(data, f, indent=2, ensure_ascii=False)
     
     # Update individual files
-    approved_queries = [q for q in data["retrieval_queries"] if q["status"] != "rejected"]
-    approved_rag = [q for q in data["rag_questions"] if q["status"] != "rejected"]
-    save_queries(approved_queries, approved_rag, query_dir)
+    approved_queries = [q for q in data["retrieval_queries"] if q.get("status") in ("verified", "partially_verified")]
+    approved_rag = [q for q in data["rag_questions"] if q.get("status") in ("verified", "partially_verified")]
+    save_queries(approved_queries, approved_rag, query_dir, skip_template=True)
     
     ret_verified = sum(1 for q in data["retrieval_queries"] if "verified" in q.get("status", ""))
     ret_rejected = sum(1 for q in data["retrieval_queries"] if q.get("status") == "rejected")
