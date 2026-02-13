@@ -315,7 +315,7 @@ def verify_queries(query_dir: Path):
         print(f"No verification template found at {template_path}")
         return
     
-    with open(template_path, "r") as f:
+    with open(template_path, "r", encoding="utf-8") as f:
         data = json.load(f)
     
     print(data["instructions"])

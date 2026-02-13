@@ -11,11 +11,13 @@
       "ocr_quality": 0.9850827513652234,
       "query_id": "Q001",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -28,11 +30,13 @@
       "ocr_quality": 0.9902547657705952,
       "query_id": "Q002",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -45,11 +49,13 @@
       "ocr_quality": 0.9809332048675092,
       "query_id": "Q003",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -62,11 +68,13 @@
       "ocr_quality": 0.9912395070722124,
       "query_id": "Q004",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -79,11 +87,13 @@
       "ocr_quality": 0.9840766278275578,
       "query_id": "Q005",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -96,12 +106,17 @@
       "ocr_quality": 0.9857687223936303,
       "query_id": "Q006",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "rejected",
       "decisions": {
-        "yash": "accept"
-      }
+        "yash": "accept",
+        "Jakub": "reject"
+      },
+      "reviewer_notes": [
+        "Jakub: This information looks like an ocr error"
+      ]
     },
     {
       "query": "What was the cause of John's brother's death in Singlee, as reported to Elizabeth Meredith in 1840?",
@@ -113,11 +128,13 @@
       "ocr_quality": 0.9804379057278004,
       "query_id": "Q007",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -130,11 +147,13 @@
       "ocr_quality": 0.9842563608463374,
       "query_id": "Q008",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -147,11 +166,13 @@
       "ocr_quality": 0.9810271197957007,
       "query_id": "Q009",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -164,11 +185,13 @@
       "ocr_quality": 0.9863533970514855,
       "query_id": "Q010",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -181,11 +204,13 @@
       "ocr_quality": 0.9876200456194396,
       "query_id": "Q011",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -198,11 +223,13 @@
       "ocr_quality": 0.9826756733729677,
       "query_id": "Q012",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -215,14 +242,16 @@
       "ocr_quality": 0.9854027098557919,
       "query_id": "Q013",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "rejected",
+      "status": "disputed",
       "decisions": {
-        "yash": "reject"
+        "yash": "reject",
+        "Jakub": "accept"
       },
       "reviewer_notes": [
-        "yash: The document does not identify Walter Scott, Chief Engineer, as the recipient. The letter discussing Mr. Samuel Clark’s behavior around 1799 in Dumfries was addressed to a different individual, so the expected answer is incorrect."
+        "yash: The document does not identify Walter Scott, Chief Engineer, as the recipient. The letter discussing Mr. Samuel Clark's behavior around 1799 in Dumfries was addressed to a different individual, so the expected answer is incorrect."
       ]
     },
     {
@@ -235,11 +264,13 @@
       "ocr_quality": 0.9863316130680271,
       "query_id": "Q014",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -252,11 +283,13 @@
       "ocr_quality": 0.9839155790755523,
       "query_id": "Q015",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -269,11 +302,13 @@
       "ocr_quality": 0.9825817906769014,
       "query_id": "Q016",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -286,11 +321,13 @@
       "ocr_quality": 0.9576146186471867,
       "query_id": "Q017",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -303,11 +340,13 @@
       "ocr_quality": 0.9792813541144829,
       "query_id": "Q018",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -320,12 +359,17 @@
       "ocr_quality": 0.9604621120220102,
       "query_id": "Q019",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "rejected",
       "decisions": {
-        "yash": "accept"
-      }
+        "yash": "accept",
+        "Jakub": "reject"
+      },
+      "reviewer_notes": [
+        "Jakub: seems like an OCR error or random information"
+      ]
     },
     {
       "query": "Who were the British military officers stationed in the region of Akora in January 1852?",
@@ -337,11 +381,13 @@
       "ocr_quality": 0.9649414799836533,
       "query_id": "Q020",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -354,11 +400,13 @@
       "ocr_quality": 0.9680146683340726,
       "query_id": "Q021",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -371,11 +419,13 @@
       "ocr_quality": 0.9733300002438312,
       "query_id": "Q022",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -388,11 +438,13 @@
       "ocr_quality": 0.9786476829584323,
       "query_id": "Q023",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -405,11 +457,13 @@
       "ocr_quality": 0.962168004803087,
       "query_id": "Q024",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -422,11 +476,13 @@
       "ocr_quality": 0.9785434422578536,
       "query_id": "Q025",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -439,11 +495,13 @@
       "ocr_quality": 0.9792207641259996,
       "query_id": "Q026",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -456,12 +514,17 @@
       "ocr_quality": 0.9780135111278778,
       "query_id": "Q027",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "rejected",
       "decisions": {
-        "yash": "accept"
-      }
+        "yash": "accept",
+        "Jakub": "reject"
+      },
+      "reviewer_notes": [
+        "Jakub: Too vague"
+      ]
     },
     {
       "query": "What was the outcome of the charges brought against Mr. Turing by Ball Ristnat in 1786?",
@@ -473,11 +536,13 @@
       "ocr_quality": 0.975348923636987,
       "query_id": "Q028",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -490,11 +555,13 @@
       "ocr_quality": 0.9743147294915074,
       "query_id": "Q029",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -507,11 +574,13 @@
       "ocr_quality": 0.9612859095535585,
       "query_id": "Q030",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -524,11 +593,13 @@
       "ocr_quality": 0.9564073994633944,
       "query_id": "Q031",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -541,11 +612,13 @@
       "ocr_quality": 0.9605919537278311,
       "query_id": "Q032",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -558,11 +631,13 @@
       "ocr_quality": 0.9252682392904354,
       "query_id": "Q033",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -575,11 +650,13 @@
       "ocr_quality": 0.9294753547260424,
       "query_id": "Q034",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -592,11 +669,13 @@
       "ocr_quality": 0.9433790478594093,
       "query_id": "Q035",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -609,11 +688,13 @@
       "ocr_quality": 0.9424814212985073,
       "query_id": "Q036",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -626,11 +707,13 @@
       "ocr_quality": 0.9461179187740725,
       "query_id": "Q037",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -643,11 +726,13 @@
       "ocr_quality": 0.8728540472699962,
       "query_id": "Q038",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -660,11 +745,13 @@
       "ocr_quality": 0.9404603147049514,
       "query_id": "Q039",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -677,11 +764,13 @@
       "ocr_quality": 0.8833516176083773,
       "query_id": "Q040",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -694,11 +783,13 @@
       "ocr_quality": 0.9496412485129877,
       "query_id": "Q041",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -711,14 +802,17 @@
       "ocr_quality": 0.9315454184811773,
       "query_id": "Q042",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
       "status": "rejected",
       "decisions": {
-        "yash": "reject"
+        "yash": "reject",
+        "Jakub": "reject"
       },
       "reviewer_notes": [
-        "yash: The expected answer, Viscount Harding, is incorrect. The Governor-General of India from 1842 to 1847 was The Earl of Ellenborough. The document does not support “Viscount Harding.”"
+        "yash: The expected answer, Viscount Harding, is incorrect. The Governor-General of India from 1842 to 1847 was The Earl of Ellenborough. The document does not support 'Viscount Harding.'",
+        "Jakub: incorrect"
       ]
     },
     {
@@ -731,11 +825,13 @@
       "ocr_quality": 0.9024028169834231,
       "query_id": "Q043",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -748,11 +844,13 @@
       "ocr_quality": 0.9474050091979517,
       "query_id": "Q044",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -765,11 +863,13 @@
       "ocr_quality": 0.9352053234755555,
       "query_id": "Q045",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -782,11 +882,13 @@
       "ocr_quality": 0.9016425012734975,
       "query_id": "Q046",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -799,12 +901,17 @@
       "ocr_quality": 0.9345271343105559,
       "query_id": "Q047",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "rejected",
       "decisions": {
-        "yash": "accept"
-      }
+        "yash": "accept",
+        "Jakub": "reject"
+      },
+      "reviewer_notes": [
+        "Jakub: too vague"
+      ]
     },
     {
       "query": "What was the origin of the throne presented to the Royal Engineers' Mess at Chatham by Colonel C. G. Gordon?",
@@ -816,11 +923,13 @@
       "ocr_quality": 0.939484876726256,
       "query_id": "Q048",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -833,11 +942,13 @@
       "ocr_quality": 0.9808494398351532,
       "query_id": "Q049",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -850,11 +961,13 @@
       "ocr_quality": 0.9824811029059719,
       "query_id": "Q050",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     }
   ],
@@ -871,11 +984,13 @@
       "ocr_quality": 0.9956544139063765,
       "question_id": "RAG001",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -890,11 +1005,13 @@
       "ocr_quality": 0.9951577641529998,
       "question_id": "RAG002",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -909,11 +1026,13 @@
       "ocr_quality": 0.993659704348822,
       "question_id": "RAG003",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -928,11 +1047,13 @@
       "ocr_quality": 0.9931785027642632,
       "question_id": "RAG004",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -947,11 +1068,13 @@
       "ocr_quality": 0.9928160532444463,
       "question_id": "RAG005",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -966,11 +1089,13 @@
       "ocr_quality": 0.9926111338726984,
       "question_id": "RAG006",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -985,11 +1110,13 @@
       "ocr_quality": 0.992385745085791,
       "question_id": "RAG007",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -1004,11 +1131,13 @@
       "ocr_quality": 0.9911072323127162,
       "question_id": "RAG008",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -1023,11 +1152,13 @@
       "ocr_quality": 0.9909893587267657,
       "question_id": "RAG009",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -1042,11 +1173,13 @@
       "ocr_quality": 0.9908490521926354,
       "question_id": "RAG010",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "rejected",
+      "status": "disputed",
       "decisions": {
-        "yash": "reject"
+        "yash": "reject",
+        "Jakub": "accept"
       },
       "reviewer_notes": [
         "yash: Because the role attribution is unclear and likely incorrect, the answer is not sufficiently supported by the evidence."
@@ -1064,11 +1197,13 @@
       "ocr_quality": 0.9905221393531275,
       "question_id": "RAG011",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -1083,12 +1218,17 @@
       "ocr_quality": 0.990337594159782,
       "question_id": "RAG012",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "rejected",
       "decisions": {
-        "yash": "accept"
-      }
+        "yash": "accept",
+        "Jakub": "reject"
+      },
+      "reviewer_notes": [
+        "Jakub: we dont know what the evidence text is refering to"
+      ]
     },
     {
       "question": "When did Basil Cochrane deliver his defence at the General Sessions of Oyer of Terminer and Goal in Delivery?",
@@ -1102,11 +1242,13 @@
       "ocr_quality": 0.9900274170616344,
       "question_id": "RAG013",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -1121,11 +1263,13 @@
       "ocr_quality": 0.9899326338052294,
       "question_id": "RAG014",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -1140,11 +1284,13 @@
       "ocr_quality": 0.9896391426830524,
       "question_id": "RAG015",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -1159,11 +1305,13 @@
       "ocr_quality": 0.9893971993256175,
       "question_id": "RAG016",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -1178,11 +1326,13 @@
       "ocr_quality": 0.9892537082844782,
       "question_id": "RAG017",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -1197,11 +1347,13 @@
       "ocr_quality": 0.9891624645643239,
       "question_id": "RAG019",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -1216,11 +1368,13 @@
       "ocr_quality": 0.9889114426608878,
       "question_id": "RAG020",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -1235,12 +1389,17 @@
       "ocr_quality": 0.9888804122859285,
       "question_id": "RAG021",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "rejected",
       "decisions": {
-        "yash": "accept"
-      }
+        "yash": "accept",
+        "Jakub": "reject"
+      },
+      "reviewer_notes": [
+        "Jakub: the retrieved evidence points to him returning to europe tor resignation to the governor and council"
+      ]
     },
     {
       "question": "What is the percentage of phosphoricaed in the soil analysis?",
@@ -1254,12 +1413,17 @@
       "ocr_quality": 0.9888510491770233,
       "question_id": "RAG022",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "rejected",
       "decisions": {
-        "yash": "accept"
-      }
+        "yash": "accept",
+        "Jakub": "reject"
+      },
+      "reviewer_notes": [
+        "Jakub: ocr error"
+      ]
     },
     {
       "question": "When did the writer receive the Company's letter?",
@@ -1273,11 +1437,13 @@
       "ocr_quality": 0.9888390316097699,
       "question_id": "RAG023",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -1292,11 +1458,13 @@
       "ocr_quality": 0.9883499172628615,
       "question_id": "RAG024",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -1311,11 +1479,13 @@
       "ocr_quality": 0.9882985694462589,
       "question_id": "RAG025",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -1330,14 +1500,17 @@
       "ocr_quality": 0.9882189864377815,
       "question_id": "RAG026",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
       "status": "rejected",
       "decisions": {
-        "yash": "reject"
+        "yash": "reject",
+        "Jakub": "reject"
       },
       "reviewer_notes": [
-        "yash: Because the Commander in Chief is not actually identified, the answer is insufficiently supported."
+        "yash: Because the Commander in Chief is not actually identified, the answer is insufficiently supported.",
+        "Jakub: insufficient evidence"
       ]
     },
     {
@@ -1352,12 +1525,17 @@
       "ocr_quality": 0.9878389486354968,
       "question_id": "RAG027",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "rejected",
       "decisions": {
-        "yash": "accept"
-      }
+        "yash": "accept",
+        "Jakub": "reject"
+      },
+      "reviewer_notes": [
+        "Jakub: we dont know the last digit due to ocr error"
+      ]
     },
     {
       "question": "When was Lieut Colonel Geils appointed a Brevet Major of Engineers?",
@@ -1371,11 +1549,13 @@
       "ocr_quality": 0.9877915011620552,
       "question_id": "RAG028",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -1390,11 +1570,13 @@
       "ocr_quality": 0.98773606075266,
       "question_id": "RAG029",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     },
     {
@@ -1409,11 +1591,13 @@
       "ocr_quality": 0.9877036131323776,
       "question_id": "RAG030",
       "verified_by": [
-        "yash"
+        "yash",
+        "Jakub"
       ],
-      "status": "partially_verified",
+      "status": "verified",
       "decisions": {
-        "yash": "accept"
+        "yash": "accept",
+        "Jakub": "accept"
       }
     }
   ]
